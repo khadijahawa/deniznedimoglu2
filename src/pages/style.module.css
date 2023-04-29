@@ -1,0 +1,326 @@
+.carouselImage {
+  object-fit: cover;
+  object-position: center top top;
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  opacity: 0.6;
+}
+.captionBox {
+  background: linear-gradient(to right, #fff, #fff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  font-size: 45px;
+  top: 35%;
+  transform: translateY(-50%);
+  color: #fff;
+  width: 10%;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+}
+.imageParent1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 25%;
+  background: linear-gradient(to left, rgba(395, 395, 355, 0), rgb(60, 60, 60));
+}
+
+.thirdSection {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  background-color: #e4ebf3;
+  padding: 4%;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2rem;
+}
+.fourthSection {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  /* border: 1px solid #c9cbcb; */
+
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  /* gap: 1px; */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.fifthSection {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  width: 28%;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  /* padding: 18px; */
+  border: none;
+  text-align: center;
+}
+.Carousel {
+  height: 10%;
+}
+.sixthSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.sixthSectionItem {
+  display: block;
+  width: 30%;
+  height: 250px;
+  background-color: #62747b;
+  border-radius: 45px;
+  color: #e4ebf3;
+  padding: 15px;
+  margin-top: 12px;
+}
+.HeaderText {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+.header {
+  /* font-family: "work Sans"; */
+  font-weight: 800;
+  color: #002535;
+}
+.sixthSectionIcon {
+  font-size: 75px;
+  color: #e4ebf3;
+  text-align: center;
+}
+.items2 {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  max-height: 20px;
+  align-items: center;
+}
+.items1:hover {
+  color: #333333c2 !important;
+}
+.items2:hover {
+  color: #333333c2 !important;
+}
+.button {
+  line-height: 2;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #f9f9f9;
+}
+.contactImage {
+  object-fit: cover;
+  object-position: bottom center center;
+  opacity: 0.9;
+  height: 500px;
+}
+.ContactHeader {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  z-index: 1;
+}
+.contactHeaderone {
+  font-size: 8rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  color: #002535;
+  margin: 0 0 0.5rem 0;
+  animation: linear;
+}
+.contactHeaderThree {
+  font-size: 3rem;
+  color: #62747b;
+  margin: 0 0 0.5rem 0;
+}
+.contactHeaderSix {
+  font-size: 2rem;
+  color: #62747b;
+  margin: 0 0 0.5rem 0;
+}
+.contactHeaderText {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  color: #002535;
+}
+.imageParent {
+  position: relative;
+}
+.imageParent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 25%;
+  background: linear-gradient(
+    to left,
+    rgba(395, 395, 355, 0),
+    rgba(355, 355, 355, 1)
+  );
+}
+.icons {
+  justify-content: center;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.iconSection {
+  border-left: 2px solid #002535;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-left: 60px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-width: 3px;
+  font-size: 4rem;
+  color: #62747b;
+}
+.icons :nth-child(1) {
+  border-left: none;
+}
+.form {
+  justify-content: center;
+  margin: 12%;
+  justify-items: center;
+}
+.submitButton {
+  background-color: #002535;
+
+  color: #e4ebf3;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.aboutImage {
+  background-color: #ffffff;
+}
+.HealthtourismImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: 600px;
+}
+@media screen and (max-width: 800px) {
+  .thirdSection {
+    display: grid;
+    background-color: #e4ebf3;
+  }
+  .captionBox {
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    top: 40%;
+  }
+  .fifthSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fourthSection {
+    display: block;
+    justify-content: space-between;
+    gap: 1px;
+  }
+  .card {
+    width: 70%;
+  }
+  .sixthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sixthSectionItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 13px;
+  }
+  .HeaderText {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .contactImage {
+    opacity: 0.5;
+  }
+  .ContactHeader {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    text-align: left;
+  }
+  .contactHeaderone {
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+  }
+  .contactHeaderThree {
+    font-size: 2rem;
+  }
+  .contactHeaderSix {
+    font-size: 1rem;
+  }
+  .icons {
+    justify-content: center;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .iconSection {
+    border: none;
+    top: 2%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin-left: 3%;
+    margin-right: 2%;
+  }
+  .contactHeaderText {
+    font-size: 3rem;
+  }
+  .form {
+    margin: 2%;
+  }
+  .aboutUsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .ThirdHeader {
+    display: none;
+  }
+}

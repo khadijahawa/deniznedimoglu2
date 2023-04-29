@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "1": "Ana Sayfa",
+    "2": "Iletısım ",
+    "3": "Hakkımızda",
+    "4": "Hizmetler",
+    "5": "Türkiye'de Sağlık Turizmi"
+  },
+  "header1": {
+    "1": "Bıze Ulaşın +905550333444"
+  },
+  "header3": {
+    "1": "+90 555 033 34 44",
+    "2": "24/7 Müsait",
+    "3": "WhatsApp'ta 7/24 Ulaşılabilir",
+    "4": "kılavuz",
+    "5": "Ücretsiz danışmanlık",
+    "6": "KLİNİKLERİMİZ"
+  },
+  "footerHeaders": {
+    "1": "Our Services",
+    "Hair": "Hair",
+    "Skin": "Skin",
+    "Mecical Aesthtic": "Mecical Aesthtic",
+    "cosmetic Surgery": "cosmetic  Surgery",
+    "Teeth Aesthtic": "Teeth Aesthtic",
+    "Body ": "Body ",
+    "Face": "Face",
+    "Breast": "Breast"
+  },
+  "footerDetails": {
+    "1": "Categories",
+    "2": "Why Turkey?",
+    "3": "Contact Us",
+    "4": "Get A Free Consultation",
+    "5": "Dental",
+    "6": "Aesthetics & Cosmetics",
+    "7": "Organ Transplantation",
+    "8": "BBL Surgery",
+    "9": "Hair Transplantation"
+  },
+  "HomeCard": {
+    "title1": "Cilt",
+    "titel2": "Saç",
+    "titel3": "Estetik ameliyatlar"
+  },
+  "HomePercentage": {
+    "1": "Ücretsiz çevrimiçi Danışmanlıklar",
+    "2": "Akredite Hastaneler ve Klinikler",
+    "3": "Tedavi Edilen Hastalar",
+    "4": "Olumlu geribildirim"
+  },
+  "homeCategories": {
+    "header": "Her Konuda Yardımcı Oluyoruz",
+    "1": "Hızlı Yanıt",
+    "2": "Sorgularınıza hızlı yanıtlar alın, genellikle dakikalar içinde.",
+    "3": "Ücretsiz Danışma",
+    "4": "Vakaya özel uzmanlaşmış bir Profesör Doktor ile doğrudan konuşun.",
+    "5": "7/24 Destek",
+    "6": "Size ihtiyacınız olduğunda her zaman destek için çevrimiçiyiz.",
+    "7": "Konaklama",
+    "8": "Sizi havalimanında karşılayıp varış noktanıza kadar eşlik ediyoruz.",
+    "9": "Çeviri",
+    "10": "Sizin dilinizi konuşuyoruz ve gerektiğinde çeviri hizmeti sunuyoruz.",
+    "11": "Memnun Hastalar",
+    "12": "Hastalarımızın %99'dan fazlası deneyimlerinden memnun olduklarını bildiriyor.",
+    "13": "En İyi Uzman Doktorlar",
+    "14": "Yüksek eğitimli ve uluslararası üne sahip doktorlarımız ve profesörlerimiz size en iyi bakımı sağlıyor.",
+    "15": "Online Randevu",
+    "16": "Konforlu evinizden kolayca randevunuzu planlayın.",
+    "17": "En İyi Seçenekler",
+    "18": "Kendi ülkenizde ve dünya genelinde en iyi tedavi seçenekleri hakkında bilgi edinin.",
+    "19": "En İyi Hastaneler",
+    "20": "Türkiye genelinde 300 akredite tesis arasından tıbbi ihtiyaçlarınız için seçim yapın."
+  },
+  "ContactUsPage": {
+    "header": "Contact Us",
+    "SubmitQuestions": "Submit Your",
+    "Questions": "Questions",
+    "checkServices": "Check Our Services",
+    "askQuestions": "Ask Your Questions Here "
+  }
+}
