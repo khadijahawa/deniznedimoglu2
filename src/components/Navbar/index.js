@@ -6,6 +6,7 @@ import { NavDropdown } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { faChartBar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -33,50 +34,73 @@ function Navbar() {
         {(isNavExpanded || screenWidth > 850) && (
           <ul className={style.list}>
             <li className={style.items}>
-              <a
-                href="/home"
-                style={{ textDecoration: "none", color: "#f1f1f1" }}
-              >
+              <Link to="/" style={{ textDecoration: "none", color: "#f1f1f1" }}>
                 {t("navbar.1")}
-              </a>
+              </Link>
             </li>
             <li className={style.items}>
-              <a
-                href="/contact-us"
+              <Link
+                to="/contact-us"
                 style={{ textDecoration: "none", color: "#f1f1f1" }}
               >
                 {t("navbar.2")}
-              </a>{" "}
+              </Link>
             </li>
             <li className={style.items}>
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 style={{ textDecoration: "none", color: "#f1f1f1" }}
               >
                 {t("navbar.3")}
-              </a>
+              </Link>
             </li>
             <li className={style.items}>
               <NavDropdown title={t("navbar.4")} id="basic-nav-dropdown">
-                <NavDropdown.Item href="/skin">Skin</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/hair">Hair</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/plastic-surguries">
-                  Plastic Surguries
+                <NavDropdown.Item>
+                  <Link
+                    to="/skin"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Skin
+                  </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/dental">Dental</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link
+                    to="/hair"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Hair
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <Link
+                    to="/plastic-surguries"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Plastic Surguries
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <Link
+                    to="/dental"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Dental
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
             </li>
 
             <li className={style.items}>
-              <a
-                href="/medical-tourism-in-turkey"
+              <Link
+                to="/medical-tourism-in-turkey"
                 style={{ textDecoration: "none", color: "#f1f1f1" }}
               >
                 {t("navbar.5")}
-              </a>
+              </Link>
             </li>
           </ul>
         )}
