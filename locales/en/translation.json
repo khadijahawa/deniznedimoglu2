@@ -1,0 +1,173 @@
+{
+  "navbar": {
+    "1": "Home",
+    "2": "Contact",
+    "3": "About",
+    "4": "Services",
+
+    "5": "Medical Tourism In Turkey"
+  },
+  "header1": {
+    "1": "Call Us +905550333444"
+  },
+  "header3": {
+    "1": "+90 555 033 34 44",
+    "2": "24/7 Available",
+    "3": "24/7 Available On WhatsApp",
+    "4": "Guide",
+    "5": "FREE CONSULTATION",
+    "6": "OUR CLINICS"
+  },
+  "footerHeaders": {
+    "1": "Our Services",
+    "Hair": "Hair",
+    "Skin": "Skin",
+    "Mecical Aesthtic": "Mecical Aesthtic",
+    "cosmetic Surgery": "cosmetic  Surgery",
+    "Teeth Aesthtic": "Teeth Aesthtic",
+    "Body": "Body ",
+    "Face": "Face",
+    "Breast": "Breast"
+  },
+  "footerDetails": {
+    "1": "Categories",
+    "2": "Why Turkey?",
+    "3": "Contact Us",
+    "4": "Get A Free Consultation",
+    "5": "Dental",
+    "6": "Aesthetics & Cosmetics",
+    "7": "Organ Transplantation",
+    "8": "BBL Surgery",
+    "9": "Hair Transplantation"
+  },
+  "footerContact": {
+    "call": "+90 555 033 34 44\n ",
+    "email": "deniz@deniznedimoglu\n ",
+    "location": "Merkez mahallesi \n Dilruba Çıkmazı \n Sokak No 16 d 4 \n kagithane istanbul\n ",
+    "message": "+90 555 033 34 44\n "
+  },
+  "HomeCard": {
+    "title1": "Skin",
+    "titel2": "Hair",
+    "titel3": "Plastic Surgeries"
+  },
+  "HomePercentage": {
+    "1": "Free online Consultations",
+    "2": "Accrediated Hospitals & Clinics",
+    "3": "Treated Patients",
+    "4": "Positive Feedback"
+  },
+  "homeCategories": {
+    "header": "WE HELP IN EVERY ASPECT",
+    "1": "Fast Response",
+    "2": "Get quick responses to your inquiries, often within minutes.",
+    "3": "Free Consultation",
+    "4": "Speak directly with a Professor Doctor who specializes in your case.",
+    "5": "24/7 Support",
+    "6": "We're available around the clock to support you whenever you need us.",
+    "7": "Accommodation",
+    "8": "We'll greet you at the airport and accompany you to your destination.",
+    "9": "Translation",
+    "10": "We speak your language and provide translation services as needed.",
+    "11": "Satisfied Patients",
+    "12": "Over 99% of our patients report high satisfaction with their experience.",
+    "13": "Best Specialist Doctors",
+    "14": "Our highly educated and internationally renowned doctors and professors ensure the best possible care for you.",
+    "15": "Online Appointment",
+    "16": "Schedule your appointment with ease from the comfort of your own home.",
+    "17": "Best Options",
+    "18": "Learn about the best treatment options for your case, both in your own country and worldwide.",
+    "19": "Best Hospitals",
+    "20": "Choose from among 300 accredited facilities across Turkey for your medical needs."
+  },
+  "skinPage": {
+    "Header1": "How Do We Care About Your Skin?",
+    "Header2": "The Process:",
+    "Header3": "Steps :",
+    "Text1": " Medical skin care is a process that aims to restore the vitality of the skin by using skin care products, and to purify the skin from factors that make it look dull, such as oil, black spots, and makeup residues.\n The process includes skin analysis to determine its needs, cleaning of  the skin, peeling, and disinfection.\n The skin is then moisturized andadditional treatments may be applied as needed.",
+    "Text2": {
+      "step1": "The skin care process begins with an analysis of the skin to determine its needs.\n",
+      "step2": "Then cleaned\n",
+      "step3": "The skin is exfoliated using special products\n",
+      "step4": "Then the Pores will be open up using vapor therapy \n",
+      "step5": "Deep disinfection is done to remove impurities and care is taken to remove any remaining oil or makeup residues \n",
+      "step6": "The process ends with moisturizing and a care mask \n"
+    },
+    "Services": {
+      "Services": "Some Of The Skin Services",
+      "1": "ACNE & SCARRING TREATMENTS",
+      "2": "PROFESSIONAL SKIN CARE",
+      "3": "GEL FACE MASK",
+      "4": "CARBON PEELING",
+      "5": "DEPIGMENTATION TREATMENT",
+      "6": "DEEP SKIN CLEANSING",
+      "7": "NEVUS TREATMENT",
+      "8": "LASER TATTOO REMOVAL",
+      "9": "DERMA THERAPY",
+      "10": "SKIN PEELS",
+      "11": "SKIN ANALYSIS",
+      "12": "FRACTIONAL LASER STRECH MARKS TREATMENT"
+    }
+  },
+  "hairPage": {
+    "header1": "Hair Transplant Treatments",
+    "header2": "Our Services",
+    "1": "Hair Transplant For Women",
+    "text1": "Hair Transplantation without shaving is a method developed for this purpose.\n Hair transplantation may be performed especially on the front side of the head called the front shed.\n In particular, women might have renounced from hair transplantation due to necessity of hair shaving or most patients do not want this procedure to be noticed. Unshaven Hair Transplantation may be done among your existing long hair and offers you a treatment that does not leave the social life.",
+    "2": "Hair Transplant For Men",
+    "text2": "This technique is a hair transplantation method which is based on transfer hair roots which were taken from nape area of human one by one to areas where there are not hair.\n Hairs which were taken from any region (back, chest, legs etc) can also be transferred.\n",
+    "3": "Beard Transplant",
+    "text3": "Beard transplant might be operated when there are scars of acne or different types of damage on the face to cover these scars.\n Upper mentioned scars might develop in chin, cheeks, mustache or sideburn area.\n To remove the visibility of the scars are possible with this method.\n"
+  },
+  "PlasticSurguries": {
+    "header1": "PLASTIC SURGERIES",
+    "header2": "Our Services",
+    "1": "Facial Aesthetics",
+    "text1": "Botox: Botox is a neuromodulator that can be used to smooth out wrinkles and fine lines by temporarily relaxing the muscles that cause them. It is commonly used to treat frown lines, crow's feet, and forehead lines.\n Dermal fillers: Dermal fillers are injectable gels that are used to restore volume and fullness to the face. They can be used to plump up lips, cheeks, and hollows under the eyes, as well as to smooth out wrinkles and fine lines. \n Microdermabrasion: Microdermabrasion is a non-invasive treatment that uses a special tool to exfoliate the top layer of skin. It can help to reduce the appearance of fine lines and wrinkles, improve skin texture and tone, and reduce the appearance of acne scars and sun damage.\n Platelet-rich plasma (PRP) therapy: PRP therapy involves using the patient's own blood, which is processed to isolate the platelets and growth factors. These are then injected back into the patient's face to stimulate collagen production and improve skin quality.\n",
+    "2": "Body Aesthetics",
+    "text2": "A variety of cosmetic procedures that focus on improving the appearance of the body.\n At our clinic, we offer body aesthetics services, such as liposuction, tummy tucks, and body contouring. Liposuction is a procedure that removes excess fat from specific areas of the body, such as the abdomen, hips, and thighs. A tummy tuck, on the other hand, removes excess skin and fat from the abdominal area, resulting in a flatter, more toned appearance.\n Body contouring procedures are designed to reshape the body and include treatments like CoolSculpting, which uses controlled cooling to eliminate fat cells, and SculpSure, which uses laser technology to target and destroy fat cells. Our team of experienced professionals is dedicated to helping our clients achieve their desired aesthetic goals and improving their overall quality of life.\n",
+    "3": "Breast Aesthetics",
+    "text3": "Breast aesthetics involves surgical procedures aimed at enhancing the appearance, size, shape, and symmetry of the breasts.\n Common breast aesthetic procedures include breast augmentation, breast lift, breast reduction, and breast reconstruction.\n These procedures can improve the overall aesthetic appearance of the breasts, boost self-confidence, and enhance the quality of life for many women.\n",
+    "4": "Medical Aesthetics",
+    "text4": "The use of minimally invasive cosmetic treatments to enhance one's appearance and address common skin and aging concerns.\n These treatments are typically performed by licensed medical professionals, such as dermatologists, plastic surgeons, or trained nurses.Some common medical aesthetic treatments include injectables such as Botox and dermal fillers, skin resurfacing treatments such as chemical peels and laser therapy, and body contouring procedures like CoolSculpting.\n Medical aesthetics can be a great way to achieve natural-looking results without the need for invasive surgeries or lengthy recovery times. It's important to seek out a reputable and experienced provider to ensure safe and effective treatment."
+  },
+  "dentalPage": {
+    "header1": "Our Dental Services",
+    "header2": "Our Services",
+    "1": "DENTAL IMPLANT",
+    "text1": "Dental implants are a popular and effective way to replace missing teeth.\n They involve placing a small titanium post into the jawbone, which serves as a replacement root for the missing tooth.\n A custom-made dental crown is then attached to the post, providing a natural-looking and durable replacement for the missing tooth.\n Implants can also be used to support dentures or bridges, improving their stability and function.\n The procedure is typically performed under local anesthesia and has a high success rate\n",
+    "2": "HOLLYWOOD SMILE",
+    "text2": "Hollywood smile is a cosmetic dental procedure that involves a combination of several treatments such as teeth whitening, porcelain veneers, and sometimes dental implants to improve the appearance of the teeth and create a beautiful, white, and perfect smile.\n This procedure is inspired by the bright and flawless smiles of Hollywood celebrities and aims to enhance the natural beauty of a person's teeth.\n It is a popular cosmetic treatment that can help to boost confidence and self-esteem.\n"
+  },
+  "HealthTourismPage": {
+    "header1": "Why Turkey?",
+    "text1": "Turkey has a unique position connecting the continents of Europe and Asia.\n Millions of people prefer Turkey as tourists every year.\n You can reach Turkey in a very short time by plane from many countries.\n",
+    "header2": "Get quality health care at affordable prices…\n",
+    "text2": "Turkey has become a leading country in the medical world with its internationally specialized physicians and modern hospitals equipped with the latest technology. It ranks 2nd in the world with more than 50 hospitals accredited by JCI. \n In addition, from the moment you arrive in the country, you will receive all kinds of services you may need in our modern hospitals with expert physician staff, with the assurance of Romoy.\n ",
+    "header3": "Preferred Country in Health Tourism Turkey",
+    "text3": " Turkey is a country that connects the continents of Europe and Asia, and has been the cradle of civilizations and cultures for centuries. It is a very rich geography with its mountains, caves, seas, many more natural beauties and historical heritage brought by different civilizations with thousands of years of history. \n",
+    "header4": "Cultural and Historical Riches",
+    "text4": "From east to west, north to south, every region and every land has a different treasure and a different richness in every corner, Turkey is almost an open-air museum.\n It has hosted dozens of civilizations such as Sumer, Assyrian, Hittite, Greek, Lydian, Celtic, Persian, Roman, Eastern Roman (Byzantine), Seljuk, Mongolian and Ottoman.\n"
+  },
+  "contactUsPage": {
+    "header": "Contact Us",
+    "SubmitQuestions": "Submit",
+    "Questions": "Your Questions",
+    "checkServices": "Check Our Services",
+    "askQuestions": "Ask Your Questions Here ",
+    "SubmitBuuton": "Submit"
+  },
+  "aboutUsPage": {
+    "header1": "Who We Are",
+    "text1": "Welcome to \n Deniz Nedimoglu\n our Health Tourism Corporation in Istanbul! We specialize in a range of beauty treatments, including:",
+    "1": " Hair Treatment and Transplant",
+    "2": "Body Shaping And Skin Treatments",
+    "3": " Plastic Surgeries ",
+    "4": " Dental Aesthetics and Treatments",
+    "text2": "Our team of experienced professionals is dedicated to providing high-quality services and personalized care to each of our clients.\n We use only the best products and techniques to ensure that you leave our clinic feeling and looking your best.",
+    "text3": "Visit us today Or get your FREE Consultation",
+    "header2": "Our Partners",
+    "11": "Estesirius Clinic",
+    "text11": "At our corporate clinic Estesirius, where we offer the latest in hair transplant and skin treatments.\n\n Our clinic is staffed by highly skilled and experienced medical professionals who are committed to providing our patients with the best possible care. \n\n We understand that hair loss and skin problems can be a source of great distress for many people, which is why we offer a range of treatments designed to address these issues. \n\n Our hair transplant services use the most advanced techniques, including Follicular Unit Extraction (FUE) and Follicular Unit Transplantation (FUT), to ensure that our patients achieve natural-looking, long-lasting results.\n\n In addition to our hair transplant services, we also offer a variety of skin treatments, including laser skin resurfacing, chemical peels, and microdermabrasion.\n\n These treatments are designed to address a range of skin concerns, from acne and sun damage to wrinkles and age spots.At our clinic, we believe that every patient deserves personalized care, which is why we take the time to get to know each individual and tailor our treatments to their unique needs.\n\n Our goal is to help our patients feel confident and comfortable in their own skin, and we are committed to achieving this through safe, effective, and cutting-edge treatments.\n\n"
+  }
+}
