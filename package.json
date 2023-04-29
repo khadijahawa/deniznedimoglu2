@@ -1,6 +1,7 @@
 {
   "name": "newdeniznedimoglu",
   "version": "0.1.0",
+  "homepage": "https://khadijahawa.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -13,6 +14,7 @@
     "antd": "^5.4.6",
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^5.0.0",
     "i18next": "^22.4.15",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.2.0",
@@ -30,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
