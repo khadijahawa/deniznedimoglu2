@@ -27,14 +27,20 @@ function Navbar() {
   return (
     <div className={style.navbar}>
       <div className={style.logoParent}>
-        <Image src={logo} className={style.logo} />
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <Image src={logo} className={style.logo} />
+        </Link>
       </div>
 
       <nav className={style.itemsParent}>
         {(isNavExpanded || screenWidth > 850) && (
           <ul className={style.list}>
             <li className={style.items}>
-              <Link to="/" style={{ textDecoration: "none", color: "#f1f1f1" }}>
+              <Link
+                to="/"
+                style={{ textDecoration: "none", color: "#f1f1f1" }}
+                onClick={() => setIsNavExpanded(false)}
+              >
                 {t("navbar.1")}
               </Link>
             </li>
@@ -42,6 +48,7 @@ function Navbar() {
               <Link
                 to="/contact-us"
                 style={{ textDecoration: "none", color: "#f1f1f1" }}
+                onClick={() => setIsNavExpanded(false)}
               >
                 {t("navbar.2")}
               </Link>
@@ -50,6 +57,7 @@ function Navbar() {
               <Link
                 to="/about"
                 style={{ textDecoration: "none", color: "#f1f1f1" }}
+                onClick={() => setIsNavExpanded(false)}
               >
                 {t("navbar.3")}
               </Link>
@@ -60,6 +68,7 @@ function Navbar() {
                   <Link
                     to="/skin"
                     style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
                   >
                     Skin
                   </Link>
@@ -69,6 +78,7 @@ function Navbar() {
                   <Link
                     to="/hair"
                     style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
                   >
                     Hair
                   </Link>
@@ -78,6 +88,7 @@ function Navbar() {
                   <Link
                     to="/plastic-surguries"
                     style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
                   >
                     Plastic Surguries
                   </Link>
@@ -87,6 +98,7 @@ function Navbar() {
                   <Link
                     to="/dental"
                     style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
                   >
                     Dental
                   </Link>
@@ -98,6 +110,7 @@ function Navbar() {
               <Link
                 to="/medical-tourism-in-turkey"
                 style={{ textDecoration: "none", color: "#f1f1f1" }}
+                onClick={() => setIsNavExpanded(false)}
               >
                 {t("navbar.5")}
               </Link>
