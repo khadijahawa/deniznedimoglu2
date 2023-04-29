@@ -25,6 +25,7 @@ import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 import { Card } from "antd";
 
@@ -121,42 +122,42 @@ const Home = () => {
         {t("homeCategories.header")}
       </h1> */}
       <div className={styles.fifthSection}>
-        <Card
+        <Link
+          to="/skin"
+          style={{ textDecoration: "none" }}
           className={styles.card}
-          hoverable
-          cover={<img alt="example" src={img1} />}
         >
-          <a href="/skin" className="text-decoration-none">
+          <Card hoverable cover={<img alt="example" src={img1} />}>
             <Meta
               title={<h2>{t("HomeCard.title1")}</h2>}
               // description="www.instagram.com"
             />
-          </a>
-        </Card>
-        <Card
+          </Card>
+        </Link>
+        <Link
+          to="/hair"
+          style={{ textDecoration: "none" }}
           className={styles.card}
-          hoverable
-          cover={<img alt="example" src={img3} />}
         >
-          <a href="/hair" className="text-decoration-none">
+          <Card hoverable cover={<img alt="example" src={img3} />}>
             <Meta
               title={<h2>{t("HomeCard.titel2")}</h2>}
               // description="www.instagram.com"
             />
-          </a>
-        </Card>
-        <Card
+          </Card>
+        </Link>
+        <Link
+          to="/plastic-surguries"
+          style={{ textDecoration: "none" }}
           className={styles.card}
-          hoverable
-          cover={<img alt="example" src={img5} />}
         >
-          <a href="/plastic-surguries" className="text-decoration-none">
+          <Card hoverable cover={<img alt="example" src={img5} />}>
             <Meta
               title={<h2>{t("HomeCard.titel3")}</h2>}
               // description="www.instagram.com"
             />
-          </a>
-        </Card>
+          </Card>
+        </Link>
       </div>
       <h1 className={` shadow-lg p-3 text-center my-4 py-4 ${styles.header}`}>
         {t("homeCategories.header")}
