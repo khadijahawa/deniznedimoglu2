@@ -156,8 +156,8 @@ const Footer = () => {
           <div className={style.navigation1}>
             <div className="">
               <h6 className="text-muted">
-                DN Medicare Tourism and Organization Co. Ltd. <br />
-                DN Tibbi Hizmetler Turizm Organizasyon Ltd. Şti.
+                NEDIMOĞLU SAĞLIK TURİZMİ VE DANIŞMANLIK <br />
+                TİC.LTD.ŞTİ
               </h6>
             </div>
             <div className={style.navigation2}>
