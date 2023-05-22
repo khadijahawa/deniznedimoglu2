@@ -1,11 +1,19 @@
 {
   "navbar": {
-    "1": "Home",
+    "1": "Corporation",
     "2": "Contact",
     "3": "About",
     "4": "Services",
-
-    "5": "Medical Tourism In Turkey"
+    "5": "Medical Tourism In Turkey",
+    "6": "Hair Transplant",
+    "7": "Medical Aesthetic",
+    "8": "Dental Aesthetic",
+    "9": "Plastic Surgeries",
+    "10": "Conatct Us",
+    "11": "Contracted Institutions",
+    "12": "Dr.Dilek Akın Aqrah Clinic",
+    "13": "Special Avangart Mouth and Denatl Clinic",
+    "14": "DR Selahattin Tulunay Clinic"
   },
   "header1": {
     "1": "Call Us +905550333444"
@@ -43,13 +51,16 @@
   "footerContact": {
     "call": "+90 555 033 34 44\n ",
     "email": "deniz@deniznedimoglu\n ",
-    "location": "Merkez mahallesi \n Dilruba Çıkmazı \n Sokak No 16 d 4 \n kagithane istanbul\n ",
+    "location": "Merkez mahallesi \n Dilruba Çıkmazı \n Sokak No 16 d 4 \nkagithane istanbul\n",
     "message": "+90 555 033 34 44\n "
   },
   "HomeCard": {
-    "title1": "Skin",
-    "titel2": "Hair",
-    "titel3": "Plastic Surgeries"
+    "title1": "Medical Aesthetic ",
+    "titel2": "Hair Treatments",
+    "titel3": "Plastic Surgeries",
+    "title4": " We Are \n **Transforming** \n Lives",
+    "title5": " The \n **Confidence** \n of a New You",
+    "title6": "  Where Science Meets \n **Art** \n "
   },
   "HomePercentage": {
     "1": "Free online Consultations",
@@ -71,7 +82,7 @@
     "10": "We speak your language and provide translation services as needed.",
     "11": "Satisfied Patients",
     "12": "Over 99% of our patients report high satisfaction with their experience.",
-    "13": "Best Specialist Doctors",
+    "13": "Best Doctors",
     "14": "Our highly educated and internationally renowned doctors and professors ensure the best possible care for you.",
     "15": "Online Appointment",
     "16": "Schedule your appointment with ease from the comfort of your own home.",
@@ -166,8 +177,49 @@
     "4": " Dental Aesthetics and Treatments",
     "text2": "Our team of experienced professionals is dedicated to providing high-quality services and personalized care to each of our clients.\n We use only the best products and techniques to ensure that you leave our clinic feeling and looking your best.",
     "text3": "Visit us today Or get your FREE Consultation",
-    "header2": "Our Partners",
-    "11": "Estesirius Clinic",
-    "text11": "At our corporate clinic Estesirius, where we offer the latest in hair transplant and skin treatments.\n\n Our clinic is staffed by highly skilled and experienced medical professionals who are committed to providing our patients with the best possible care. \n\n We understand that hair loss and skin problems can be a source of great distress for many people, which is why we offer a range of treatments designed to address these issues. \n\n Our hair transplant services use the most advanced techniques, including Follicular Unit Extraction (FUE) and Follicular Unit Transplantation (FUT), to ensure that our patients achieve natural-looking, long-lasting results.\n\n In addition to our hair transplant services, we also offer a variety of skin treatments, including laser skin resurfacing, chemical peels, and microdermabrasion.\n\n These treatments are designed to address a range of skin concerns, from acne and sun damage to wrinkles and age spots.At our clinic, we believe that every patient deserves personalized care, which is why we take the time to get to know each individual and tailor our treatments to their unique needs.\n\n Our goal is to help our patients feel confident and comfortable in their own skin, and we are committed to achieving this through safe, effective, and cutting-edge treatments.\n\n"
+    "header2": "Our Partners"
+  },
+  "estesirius": {
+    "1": "Dr.Dilek Akın Aqrah Clinic",
+    "2": "EsteSirius Clinic",
+    "3": "At our corporate clinic Estesirius, where we offer the latest in hair and skin treatments.\n\n Our clinic is staffed by highly skilled and experienced medical professionals who are committed to providing our patients with the best possible care. \n\n We understand that hair loss and skin problems can be a source of great distress for many people, which is why we offer a range of treatments designed to address these issues. \n\n Our hair treatment services use the most advanced techniques, to ensure that our patients achieve natural-looking, long-lasting results.\n\n In addition to our hair treatment services, we also offer a variety of skin treatments, including laser skin resurfacing, chemical peels, and microdermabrasion.\n\n These treatments are designed to address a range of skin concerns, from acne and sun damage to wrinkles and age spots.\n At our clinic, we believe that every patient deserves personalized care, which is why we take the time to get to know each individual and tailor our treatments to their unique needs.\n\n Our goal is to help our patients feel confident and comfortable in their own skin, and we are committed to achieving this through safe, effective, and cutting-edge treatments.\n\n",
+    "4": "The Best Of Our Services",
+    "5": "Mesotherapy",
+    "6": "Filler",
+    "7": "Non-Surgical Face Lift",
+    "8": "PRP",
+    "9": "Permanent Makeup",
+    "10": "Plexer",
+    "11": "Skin Care",
+    "12": "Stem Cell Therapy",
+    "13": "Botox",
+    "14": "Call Estesirus Clinic",
+    "15": "Visit Estesirius Clinic Website"
+  },
+  "dentalcorperation": {
+    "1": "Special Avangart Mouth and Denatl Clinic",
+    "2": "Avangart Clinic",
+    "3": "Avangart Oral and Dental Health Polyclinic provides service in Mecidiyeköy, Istanbul.\n X-ray imagining of the patients is done with the panoramic X-Ray device in Our Clinic.\n Aangart Oral and Dental Health Polyclinic is authorized to engage in international health tourism activities by complying with the Ministry of Health of Turkey's International Health Tourism Health Facility competency criterias and the general principles of the Ministry's Regulation.\n Treatments are carried out in accordance with the conditions of the pandemic.\n Hygiene rules are given utmost attention.\n All other dental treatments are performed in the clinic, except the orthodontic and pedodontic treatments.\n",
+    "4": "The Best Of Our Services",
+    "5": "Hollywood Smile (Smile Aesthetics)",
+    "6": "Dental Implant",
+    "7": "Root Canal Treatment",
+    "8": "Teeth Whitening",
+    "9": "Dental Prosthesis",
+    "10": "Tooth Extraction",
+    "11": "Visit Avangart Clinic Instagram Page",
+    "12": "Visit Avangart Clinic Website"
+  },
+  "plasticClinic": {
+    "1": "Dr. Selahattin Tulunay",
+    "2": "Dr.Selahattin Tulunay Clinic",
+    "3": "In 2001, he was appointed to serve at the Plastic and Reconstructive Surgery Department of Universal Hospital Group (UGH), where he continued to practice his profession.\nFrom 2012, he became the head of his own clinic he has been dedicated to serving in the field of plastic surgery for many years.\n M.D. Selahattin Tulunay is a member of the Turkish Medical Association.\n He is also a member of the Turkish Plastic Reconstructive and Aesthetic Surgery Association. He was awarded the prize in the contest “The Best Plastic Surgeon of The Year” held in 2012. He continues his studies and research at his clinic and a partner hospital. He was awarded 2 times for the prize in the contest “The Best Hair Transplant Specialist” of the Year held in 2014 and 2015. \n M.D. Selahattin Tulunay speaks the English Language fluently. Dr. Tulunay, who has various domestic and international medical publications, endeavors to stay current by attending congresses. In addition, he closely follows and participates in congresses and seminars held at home and abroad.\n",
+    "4": "Specializing in:",
+    "5": "Aesthetic and Plastic Surgeries",
+    "6": "Hair Transplant",
+    "7": "Medical Aesthetic / Non-Surgical Procedures",
+    "8": "Reconstructive Surgeries",
+    "9": "Call Dr.Selahattin Tulunay Clinic",
+    "10": "Visit Dr.Selahattin Tulunay Clinic Website"
   }
 }

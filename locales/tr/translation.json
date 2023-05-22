@@ -1,10 +1,19 @@
 {
   "navbar": {
-    "1": "Ana Sayfa",
+    "1": "Kurumsal",
     "2": "Iletısım ",
     "3": "Hakkımızda",
     "4": "Hizmetler",
-    "5": "Türkiye'de Sağlık Turizmi"
+    "5": "Türkiye'de Sağlık Turizmi",
+    "6": "Saç Ekimi",
+    "7": "Medikal Estetik",
+    "8": "Diş Estetiği",
+    "9": "Estetik ameliyatlar",
+    "10": "Bize Ulaşın",
+    "11": "Anlaşmalı Kurumlar",
+    "12": "Dr.Dilek Akın Aqrah Muyanehanesi",
+    "13": "Özel Avangart Ağız Ve Diş Sağlıgı Polikliniği",
+    "14": "DR Selahattin Tulunay klink"
   },
   "header1": {
     "1": "Bıze Ulaşın +905550333444"
@@ -18,31 +27,34 @@
     "6": "KLİNİKLERİMİZ"
   },
   "footerHeaders": {
-    "1": "Our Services",
-    "Hair": "Hair",
-    "Skin": "Skin",
-    "Mecical Aesthtic": "Mecical Aesthtic",
-    "cosmetic Surgery": "cosmetic  Surgery",
-    "Teeth Aesthtic": "Teeth Aesthtic",
-    "Body ": "Body ",
-    "Face": "Face",
-    "Breast": "Breast"
+    "1": "Hizmetlerimiz",
+    "Hair": "Saç",
+    "Skin": "Cilt",
+    "Mecical Aesthtic": "Tıbbi Estetik",
+    "cosmetic Surgery": "Estetik Cerrahi",
+    "Teeth Aesthtic": "Diş Estetiği",
+    "Body ": "Vücut",
+    "Face": "Yüz",
+    "Breast": "Göğüs"
   },
   "footerDetails": {
-    "1": "Categories",
-    "2": "Why Turkey?",
-    "3": "Contact Us",
-    "4": "Get A Free Consultation",
-    "5": "Dental",
-    "6": "Aesthetics & Cosmetics",
-    "7": "Organ Transplantation",
-    "8": "BBL Surgery",
-    "9": "Hair Transplantation"
+    "1": "Kategoriler",
+    "2": "Neden Türkiye?",
+    "3": "İletişim",
+    "4": "Ücretsiz Danışma Alın",
+    "5": "Diş",
+    "6": "Estetik ve Kozmetik",
+    "7": "Organ Nakli",
+    "8": "BBL Cerrahisi",
+    "9": "Saç Nakli"
   },
   "HomeCard": {
-    "title1": "Cilt",
-    "titel2": "Saç",
-    "titel3": "Estetik ameliyatlar"
+    "title1": "Medikal Estetik",
+    "titel2": "Saç Tedavileri",
+    "titel3": "Estetik ameliyatlar",
+    "title4": "Hayatları \n **Dönüştürüyoruz**",
+    "title5": "Yeni Bir Senin \n **Güveni**",
+    "title6": "Bilimin \n **Sanatla** \n Buluştuğu Yer"
   },
   "HomePercentage": {
     "1": "Ücretsiz çevrimiçi Danışmanlıklar",
@@ -73,11 +85,136 @@
     "19": "En İyi Hastaneler",
     "20": "Türkiye genelinde 300 akredite tesis arasından tıbbi ihtiyaçlarınız için seçim yapın."
   },
-  "ContactUsPage": {
-    "header": "Contact Us",
-    "SubmitQuestions": "Submit Your",
-    "Questions": "Questions",
-    "checkServices": "Check Our Services",
-    "askQuestions": "Ask Your Questions Here "
+  "skinPage": {
+    "Header1": "Cildinize Nasıl Bakıyoruz?",
+    "Header2": "Süreç:",
+    "Header3": "Adımlar:",
+    "Text1": "Tıbbi cilt bakımı, cildin canlılığını geri kazanmayı ve yağ, siyah noktalar ve makyaj kalıntıları gibi mat görünmesine neden olan faktörlerden arındırmayı amaçlayan bir süreçtir.\n Süreç, cilt analiziyle ihtiyaçlarının belirlenmesi, cildin temizlenmesi, peeling ve dezenfeksiyonu içerir.\n Ardından cilt nemlendirilir ve gerektiğinde ek tedaviler uygulanabilir.",
+    "Text2": {
+      "step1": "Cilt bakım süreci, cilt analiziyle ihtiyaçlarının belirlenmesiyle başlar.\n",
+      "step2": "Ardından temizlenir\n",
+      "step3": "Cilt, özel ürünler kullanılarak eksfoliye edilir\n",
+      "step4": "Ardından buhar terapisi ile gözenekler açılır\n",
+      "step5": "Derin bir dezenfeksiyon yapılır, kalan yağ ve makyaj kalıntıları temizlenir\n",
+      "step6": "Süreç, nemlendirme ve bakım maskesi ile sona erer\n"
+    },
+    "Services": {
+      "Services": "Bazı Cilt Hizmetleri",
+      "1": "SİVİLCE VE YARA İZİ TEDAVİLERİ",
+      "2": "PROFESYONEL CİLT BAKIMI",
+      "3": "JEL YÜZ MASKESİ",
+      "4": "KARBON PEELING",
+      "5": "CİLT LEKELERİ TEDAVİSİ",
+      "6": "DERİN CİLT TEMİZLİĞİ",
+      "7": "NEVÜS TEDAVİSİ",
+      "8": "LAZER DÖVME SİLME",
+      "9": "DERMA TERAPİSİ",
+      "10": "CİLT PEELİNGİ",
+      "11": "CİLT ANALİZİ",
+      "12": "FRAXEL LAZER GERME İZLERİ TEDAVİSİ"
+    }
+  },
+  "hairPage": {
+    "header1": "Saç Ekimi Tedavileri",
+    "header2": "Hizmetlerimiz",
+    "1": "Kadınlar İçin Saç Ekimi",
+    "text1": "Tıraşsız saç ekimi, bu amaçla geliştirilen bir yöntemdir.\n Saç ekimi özellikle ön bölge olarak adlandırılan alanda yapılabilir.\n Özellikle kadınlar, saç ekimi için saçların tıraş edilmesi gerekliliği veya hastaların bu işlemin fark edilmesini istememesi nedeniyle vazgeçebilirler. Tıraşsız Saç Ekimi, mevcut uzun saçlarınızın arasında yapılabilir ve sosyal hayatı etkilemeyen bir tedavi sunar.",
+    "2": "Erkekler İçin Saç Ekimi",
+    "text2": "Bu teknik, saç olmayan bölgelere, insanın ense bölgesinden tek tek alınan saç köklerinin transfer edildiği bir saç ekimi yöntemidir.\n Herhangi bir bölgeden (arka, göğüs, bacak vb.) alınan saçlar da transfer edilebilir.\n",
+    "3": "Sakal Ekimi",
+    "text3": "Sakal ekimi, yüzdeki akne izleri veya farklı türdeki hasarların bu izleri kapatmak için yapılabilir.\n Söz konusu izler, çene, yanaklar, bıyık veya favori bölgesinde gelişebilir.\n Bu yöntemle izlerin görünürlüğü ortadan kaldırılabilir.\n"
+  },
+  "PlasticSurguries": {
+    "header1": "ESTETİK CERRAHİLER",
+    "header2": "Hizmetlerimiz",
+    "1": "Yüz Estetiği",
+    "text1": "Botox: Botox, geçici olarak onları oluşturan kasları rahatlatarak kırışıklıkları ve ince çizgileri düzleştirmek için kullanılan bir nöromodülatördür. Sıklıkla kırışık çizgileri, kaz ayağı ve alın çizgilerinin tedavisinde kullanılır.\n Dermal dolgular: Dermal dolgular, yüzdeki hacmi ve dolgunluğu geri kazandırmak için kullanılan enjekte edilebilir jellerdir. Dudakları, yanakları ve göz altı boşluklarını dolgunlaştırmak, ayrıca kırışıklıkları ve ince çizgileri düzleştirmek için kullanılabilir. \n Mikrodermabrazyon: Mikrodermabrazyon, cildin üst tabakasını soyarak yapılan invaziv olmayan bir tedavidir. İnce çizgilerin ve kırışıklıkların görünümünü azaltmaya, cilt dokusu ve tonunu düzeltmeye ve akne izleri ile güneş hasarının görünümünü azaltmaya yardımcı olabilir.\n Trombosit zengin plazma (TVP) terapisi: TVP terapisi, hastanın kendi kanının kullanıldığı, trombositleri ve büyüme faktörlerini izole etmek için işlenen bir yöntemdir. Bunlar daha sonra hastanın yüzüne enjekte edilerek kollajen üretimini uyarır ve cilt kalitesini iyileştirir.\n",
+    "2": "Vücut Estetiği",
+    "text2": "Vücudun görünümünü iyileştirmeye odaklanan çeşitli kozmetik işlemler.\n Klinikte, liposuction, karın germe ve vücut şekillendirme gibi vücut estetiği hizmetleri sunmaktayız. Liposuction, karın, kalça ve uyluk gibi belirli bölgelerden fazla yağın alındığı bir işlemdir. Öte yandan karın germe, karın bölgesinden fazla deri ve yağın alınarak daha düz ve daha sıkı bir görünüm elde edilmesini sağlar.\n Vücut şekillendirme işlemleri, vücudu yeniden şekillendirmek için tasarlanmıştır ve kontrol edilen soğutma kullanarak yağ hücrelerini yok eden CoolSculpting gibi tedavileri ve lazer teknolojisini kullanarak yağ hücrelerini hedefleyen SculpSure gibi tedavileri içerir. Tecrübeli bir uzman ekibimiz, müşterilerimizin istedikleri estetik hedeflere ulaşmalarına ve genel yaşam kalitelerini iyileştirmelerine yardımcı olmaktadır.\n",
+    "3": "Göğüs Estetiği",
+    "text3": "Göğüs estetiği, göğüslerin görünümünü, boyutunu, şeklini ve simetrisini iyileştirmeyi amaçlayan cerrahi işlemleri içerir.\n Yaygın göğüs estetiği işlemleri arasında meme büyütme, meme dikleştirme, meme küçültme ve meme rekonstrüksiyonu bulunur.\n Bu işlemler, göğüslerin genel estetik görünümünü, özgüveni artırabilir ve birçok kadının yaşam kalitesini iyileştirebilir.\n",
+    "4": "Tıbbi Estetik",
+    "text4": "Görünümü iyileştirmek ve yaygın cilt ve yaşlanma sorunlarını ele almak için minimal invaziv kozmetik tedavilerin kullanılmasıdır.\n Bu tedaviler genellikle dermatologlar, plastik cerrahlar veya eğitimli hemşireler gibi lisanslı tıbbi profesyoneller tarafından uygulanır. Bazı yaygın tıbbi estetik tedaviler arasında Botox ve dermal dolgular gibi enjektabl ürünler, kimyasal peeling ve lazer terapisi gibi cilt yenileme tedavileri, ve CoolSculpting gibi vücut şekillendirme prosedürleri yer almaktadır.\n Tıbbi estetik, invaziv cerrahiler veya uzun iyileşme süreleri gerektirmeyen doğal görünümlü sonuçlara ulaşmanın harika bir yol olabilir. Güvenli ve etkili bir tedavi için saygın ve deneyimli bir sağlayıcıyı tercih etmek önemlidir."
+  },
+  "dentalPage": {
+    "header1": "Diş Hekimliği Hizmetlerimiz",
+    "header2": "Hizmetlerimiz",
+    "1": "DİŞ İMPLANTI",
+    "text1": "Diş implantları, eksik dişleri yerine koymak için popüler ve etkili bir yöntemdir.\n Bu yöntemde, çene kemiğine yerleştirilen küçük bir titanyum direk, eksik dişin yerine geçen bir kök görevi görür.\n Ardından özel olarak yapılmış bir diş taçı, direğe bağlanarak eksik dişin doğal ve dayanıklı bir yerine geçmesini sağlar.\n İmplantlar, protez veya köprüleri desteklemek için de kullanılabilir, böylece stabilite ve fonksiyonları artar.\n İşlem genellikle lokal anestezi altında gerçekleştirilir ve yüksek bir başarı oranına sahiptir.\n",
+    "2": "HOLLYWOOD GÜLÜŞÜ",
+    "text2": "Hollywood gülüşü, diş beyazlatma, porselen lamineler ve bazen diş implantları gibi birkaç tedaviyi birleştiren kozmetik diş tedavisidir. Bu yöntem, Hollywood ünlülerinin parlak ve kusursuz gülüşlerinden esinlenmiştir ve kişinin dişlerinin doğal güzelliğini artırmayı amaçlar.\n Özgüveni ve özsaygıyı artırmaya yardımcı olan popüler bir kozmetik tedavidir.\n"
+  },
+  "HealthTourismPage": {
+    "header1": "Neden Türkiye?",
+    "text1": "Türkiye, Avrupa ve Asya kıtalarını birleştiren benzersiz bir konuma sahiptir.\n Her yıl milyonlarca insan Türkiye'yi turist olarak tercih etmektedir.\n Birçok ülkeden uçakla Türkiye'ye çok kısa sürede ulaşabilirsiniz.\n",
+    "header2": "Uygun fiyatlarla kaliteli sağlık hizmeti alın…\n",
+    "text2": "Türkiye, uluslararası alanda uzmanlaşmış doktorları ve son teknolojiyle donatılmış modern hastaneleri ile tıp dünyasında öncü bir ülke haline gelmiştir. JCI tarafından akredite edilen 50'den fazla hastane ile dünyada 2. sırada yer almaktadır.\n Ayrıca ülkeye geldiğiniz anda, Romoy güvencesiyle uzman doktor kadrosuyla modern hastanelerimizde ihtiyaç duyabileceğiniz her türlü hizmeti alırsınız.\n ",
+    "header3": "Sağlık Turizminde Tercih Edilen Ülke Türkiye",
+    "text3": "Türkiye, Avrupa ve Asya kıtalarını birleştiren, yüzyıllardır medeniyetlerin ve kültürlerin beşiği olan bir ülkedir. Dağları, mağaraları, denizleri ve binlerce yıllık tarihiyle farklı medeniyetler tarafından getirilen doğal güzellikler ve tarihi mirasıyla çok zengin bir coğrafyadır.\n",
+    "header4": "Kültürel ve Tarihi Zenginlikler",
+    "text4": "Doğudan batıya, kuzeyden güneye her bölge ve her toprak parçasında farklı bir hazine ve her köşede farklı bir zenginlik bulunan Türkiye neredeyse açık hava müzesidir.\n Sümer, Asur, Hitit, Yunan, Lidya, Kelt, Pers, Roma, Doğu Roma (Bizans), Selçuklu, Moğol ve Osmanlı gibi onlarca medeniyete ev sahipliği yapmıştır.\n"
+  },
+  "contactUsPage": {
+    "header": "Bize Ulaşın",
+    "SubmitQuestions": "Soruları",
+    "Questions": "Gönderin",
+    "checkServices": "Hizmetlerimizi Kontrol Edin",
+    "askQuestions": "Sorularınızı Buradan Sorun "
+  },
+  "aboutUsPage": {
+    "header1": "Kimiz",
+    "text1": "İstanbul'daki Sağlık Turizmi Kuruluşumuz \nDeniz Nedimoğlu'na\n hoş geldiniz! Saç tedavisi, saç ekimi, vücut şekillendirme ve cilt tedavileri gibi çeşitli güzellik tedavilerinde uzmanlaşmış bir kuruluşuz.",
+    "1": "Saç Tedavisi ve Saç Ekimi",
+    "2": "Vücut Şekillendirme ve Cilt Tedavileri",
+    "3": "Plastik Cerrahiler",
+    "4": "Diş Estetiği ve Tedavileri",
+    "text2": "Deneyimli uzman ekibimiz, her bir müşterimize yüksek kalitede hizmet ve kişiselleştirilmiş bakım sunmaya adanmıştır.\n Sadece en iyi ürünleri ve teknikleri kullanarak, kliniğimizden en iyi şekilde ayrılmanızı sağlıyoruz.",
+    "text3": "Bugün bizi ziyaret edin veya ÜCRETSİZ danışmanlığınızı alın",
+    "header2": "İş Ortağımız",
+    "11": "Estesirius Klinik",
+    "text11": "Son saç ekimi ve cilt tedavilerinde en son teknikleri sunduğumuz kurumsal kliniğimiz Estesirius'ta.\n\n Kliniğimiz, hastalarımıza en iyi bakımı sunmaya adanmış deneyimli ve alanında uzman tıbbi profesyoneller tarafından çalıştırılmaktadır.\n\n Saç kaybı ve cilt sorunlarının birçok insan için büyük bir sıkıntı kaynağı olabileceğinin farkındayız, bu yüzden bu sorunları ele alan çeşitli tedaviler sunuyoruz.\n\n Saç ekimi hizmetlerimiz, Foliküler Ünite Ekstraksiyonu (FUE) ve Foliküler Ünite Transplantasyonu (FUT) gibi en ileri teknikleri kullanarak hastalarımızın doğal görünümlü ve uzun süreli sonuçlar elde etmesini sağlıyoruz.\n\n Saç ekimi hizmetlerimizin yanı sıra, lazer cilt yenileme, kimyasal peeling ve mikrodermabrazyon gibi çeşitli cilt tedavileri de sunuyoruz.\n\n Bu tedaviler, akne ve güneş hasarı gibi çeşitli cilt sorunlarını ele almak için tasarlanmıştır.\n\n Kliniğimizde, her hastanın kişiselleştirilmiş bakıma layık olduğuna inanıyoruz, bu nedenle her bir bireyi tanımak ve tedavilerimizi benzersiz ihtiyaçlarına uygun şekilde uyarlamak için zaman ayırıyoruz.\n\n Amacımız, hastalarımızın kendi ciltlerinde kendine güvenen ve rahat hissetmelerine yardımcı olmaktır ve bunu güvenli, etkili ve son teknoloji tedavilerle başarmaya kararlıyız.\n\n"
+  },
+  "estesirius": {
+    "1": "Dr.Dilek Akın Aqrah Muyanehane",
+    "2": "EsteSirius Muyanehane",
+    "3": "Kurumsal klinik Estesirius'ta, en son saç ve cilt tedavilerini sunduğumuz yerdeyiz.Kliniğimiz, hastalarımıza en iyi bakımı sunmaya adanmış,\n  son derece yetenekli ve tecrübeli tıbbi profesyoneller tarafından çalıştırılmaktadır.\n Saç dökülmesi ve cilt sorunlarının birçok insan için büyük bir sıkıntı kaynağı olabileceğini anlıyoruz, bu nedenle bu sorunları ele almaya yönelik çözümler sunan bir dizi tedavi seçeneği sunuyoruz.\n \n Saç tedavi hizmetlerimiz, hastalarımızın doğal görünümlü ve uzun süreli sonuçlar elde etmelerini sağlamak için en gelişmiş teknikleri kullanır.Saç tedavisi hizmetlerimize ek olarak, lazer cilt yenileme, kimyasal peeling ve mikrodermabrazyon gibi birçok cilt tedavisi seçeneği de sunuyoruz.Bu tedaviler, akne ve güneş hasarı gibi birçok cilt sorununu ele almaya yöneliktir.\n\n Kliniğimizde, her hasta kişiselleştirilmiş bakımı hak eder.\n  Bu nedenle, her bireyi tanımak ve tedavilerimizi onların özel ihtiyaçlarına göre uyarlamak için zaman ayırıyoruz.\n Amacımız, hastalarımızın kendi ciltlerinde kendine güvenli ve rahat hissetmelerine yardımcı olmaktır ve bunu güvenli, etkili ve son derece ileri teknolojili tedavilerle başarmak için taahhütte bulunuyoruz.",
+    "4": "Hizmetlerimizin En İyisi",
+    "5": "Mezoterapi",
+    "6": "Dolgu",
+    "7": "Cerrahi Olmayan Yüz Germe",
+    "8": "PRP",
+    "9": "Kalıcı Makyaj",
+    "10": "Plexer",
+    "11": "Cilt Bakımı",
+    "12": "Stem Hücre Tedavisi",
+    "13": "Botoks",
+    "14": "Estesirus Clinic'i arayın",
+    "15": "Estesirius Clinic Web Sitesini Ziyaret Edin"
+  },
+  "dentalcorperation": {
+    "1": "Special Avangart Mouth and Denatl Clinic",
+    "2": "Avangart Clinic",
+    "3": "Avangart Ağız ve Diş Sağlığı Polikliniği, İstanbul Mecidiyeköy'de hizmet vermektedir.\n Hastaların röntgen görüntülemesi Kliniğimizde panoramik X-ışını cihazı ile yapılmaktadır.\n Avangart Ağız ve Diş Sağlığı Polikliniği, Türkiye Sağlık Bakanlığı'nın Uluslararası Sağlık Turizmi Sağlık Tesisi yetkinlik kriterlerine ve Bakanlık yönetmeliğinin genel prensiplerine uygun olarak uluslararası sağlık turizmi faaliyetlerinde bulunmaya yetkilidir.\n Tedaviler pandemi koşullarına uygun şekilde gerçekleştirilmektedir.\n Hijyen kurallarına maksimum önem verilmektedir.\n Ortodontik ve pedodontik tedaviler haricindeki tüm diş tedavileri klinikte yapılmaktadır.\n",
+    "4": "Hizmetlerimizin En İyileri",
+    "5": "Hollywood Gülüşü (Gülüş Estetiği)",
+    "6": "Diş İmplantı",
+    "7": "Kanal Tedavisi",
+    "8": "Diş Beyazlatma",
+    "9": "Diş Protezi",
+    "10": "Diş Çekimi",
+    "11": "Avangart Clinic, Instagram Sayfasını Ziyaret Edin",
+    "12": "Avangart Kliniği Websitesini Ziyaret Et"
+  },
+  "plasticClinic": {
+    "1": "Dr. Selahattin Tulunay",
+    "2": "Dr.Selahattin Tulunay klinik",
+    "3": "2001 yılında Universal Hospital Group'un (UGH) Plastik ve Rekonstrüktif Cerrahi Bölümü'ne atanarak mesleğini burada sürdürmüştür.\n2012 yılından itibaren ise kendisini hizmet vermeye adadığı kendi kliniğinin başına geçmiştir. Selahattin Tulunay Türk Tabipleri Birliği üyesidir.\n Türk Plastik Rekonstrüktif ve Estetik Cerrahi Derneği üyesidir. 2012 yılında düzenlenen “Yılın En İyi Plastik Cerrahı” yarışmasında ödüle layık görülmüştür. Çalışmalarına ve araştırmalarına kendi kliniğinde ve anlaşmalı olduğu hastanede devam etmektedir. 2014 ve 2015 yıllarında düzenlenen “Yılın En İyi Saç Ekim Uzmanı” yarışmasında 2 kez ödüle layık görülmüştür.\n Dr. Selahattin Tulunay iyi derecede İngilizce bilmektedir. Yurt içi ve yurt dışında çeşitli tıp yayınları bulunan Dr. Tulunay, kongrelere katılarak güncel kalmaya çalışmaktadır. Ayrıca yurt içi ve yurt dışında düzenlenen kongre ve seminerleri yakından takip etmekte ve bunlara katılmaktadır.\n",
+    "4": "Uzmanlık:",
+    "5": "Estetik ve Plastik Ameliyatlar",
+    "6": "Saç Ekimi",
+    "7": "Medikal Estetik / Ameliyatsız İşlemler",
+    "8": "Rekonstrüktif Ameliyatlar",
+    "9": "Dr.Selahattin Tulunay Kliniği'ni Arayın",
+    "10": "Dr.Selahattin Tulunay Klinik Web Sitesini Ziyaret Edin"
   }
 }
