@@ -74,7 +74,7 @@ function Header() {
 
           <h6>
             <a
-              href="https://www.instagram.com/estesiriusclinic/"
+              href="https://www.linkedin.com/in/dn-health-tourism-417986266"
               className={style.link}
             >
               <FontAwesomeIcon

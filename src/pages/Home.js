@@ -13,18 +13,18 @@ import CountUp from "react-countup";
 import img5 from "../utils/homePics/homecard6.jpg";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-solid-svg-icons";
+// import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faHospitalUser } from "@fortawesome/free-solid-svg-icons";
 import { faSquarePhoneFlip } from "@fortawesome/free-solid-svg-icons";
 import { faNotesMedical } from "@fortawesome/free-solid-svg-icons";
 import { faCalendarCheck } from "@fortawesome/free-solid-svg-icons";
-import { faStethoscope } from "@fortawesome/free-solid-svg-icons";
+// import { faStethoscope } from "@fortawesome/free-solid-svg-icons";
 import { faUserDoctor } from "@fortawesome/free-solid-svg-icons";
 import { faMoneyCheck } from "@fortawesome/free-solid-svg-icons";
-import { faPlane } from "@fortawesome/free-solid-svg-icons";
-import { faHandshake } from "@fortawesome/free-solid-svg-icons";
-import { faLanguage } from "@fortawesome/free-solid-svg-icons";
-import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
+// import { faPlane } from "@fortawesome/free-solid-svg-icons";
+// import { faHandshake } from "@fortawesome/free-solid-svg-icons";
+// import { faLanguage } from "@fortawesome/free-solid-svg-icons";
+// import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 import { Card } from "antd";
@@ -48,7 +48,15 @@ const Home = () => {
 
           <Carousel.Caption className={styles.captionBox}>
             <div className="fw-bold text-start ">
-              We Are <b className="fw-bolder"> Transforming</b> Lives
+              {t("HomeCard.title4")
+                .split("**")
+                .map((part, index) => {
+                  if (index % 2 === 0) {
+                    return <span key={index}>{part}</span>;
+                  } else {
+                    return <b key={index}>{part}</b>;
+                  }
+                })}
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -62,7 +70,15 @@ const Home = () => {
           </div>
           <Carousel.Caption className={styles.captionBox}>
             <div className="fw-bold text-start ">
-              The <b className="fw-bolder">Confidence</b> of a New You
+              {t("HomeCard.title5")
+                .split("**")
+                .map((part, index) => {
+                  if (index % 2 === 0) {
+                    return <span key={index}>{part}</span>;
+                  } else {
+                    return <b key={index}>{part}</b>;
+                  }
+                })}
               {/* <div className={styles.items}>
                 <a
                   href="https://wa.me/00905550333444"
@@ -84,7 +100,15 @@ const Home = () => {
           </div>
           <Carousel.Caption className={styles.captionBox}>
             <div className="fw-bold text-start">
-              Where Science Meets <b className="fw-bolder">Art</b>
+              {t("HomeCard.title6")
+                .split("**")
+                .map((part, index) => {
+                  if (index % 2 === 0) {
+                    return <span key={index}>{part}</span>;
+                  } else {
+                    return <b key={index}>{part}</b>;
+                  }
+                })}{" "}
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -114,13 +138,7 @@ const Home = () => {
           </h1>
           <h2 className="text-muted">Your Bueaty Will Be In Good Hands</h2>
         </div>
-        {/* <div>
-          <p>Discover Your Best Self</p>
-        </div> */}
       </div>
-      {/* <h1 className={`text-center my-4 py-4 ${styles.header}`}>
-        {t("homeCategories.header")}
-      </h1> */}
       <div className={styles.fifthSection}>
         <Link
           to="/skin"
@@ -163,101 +181,119 @@ const Home = () => {
         {t("homeCategories.header")}
       </h1>
       <div className={styles.sixthSection}>
-        <div className={styles.sixthSectionItem}>
+        {/* <div className={styles.sixthSectionItem}>
           <FontAwesomeIcon icon={faClock} className={styles.sixthSectionIcon} />
           <h1>{t("homeCategories.1")}</h1>
           <h6>{t("homeCategories.2")}</h6>
+        </div> */}
+        <div className={styles.sixthSectionItem}>
+          <Link
+            to={`https://wa.me/${+905550333444}`}
+            style={{ textDecoration: "none", color: "#e4ebf3" }}
+          >
+            <FontAwesomeIcon
+              icon={faHospitalUser}
+              className={styles.sixthSectionIcon}
+            />
+            <h1>{t("homeCategories.3")}</h1>
+            <h6>{t("homeCategories.4")}</h6>
+          </Link>
         </div>
         <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faHospitalUser}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.3")}</h1>
-          <h6>{t("homeCategories.4")}</h6>
+          <Link
+            to={`tel:${+905550333444}`}
+            style={{ textDecoration: "none", color: "#e4ebf3" }}
+          >
+            <FontAwesomeIcon
+              icon={faSquarePhoneFlip}
+              className={styles.sixthSectionIcon}
+            />
+            <h1>{t("homeCategories.5")}</h1>
+            <h6>{t("homeCategories.6")}</h6>
+          </Link>
+        </div>
+
+        <div
+          className={styles.sixthSectionItem}
+          style={{ textDecoration: "none" }}
+        >
+          <Link
+            to="/accomedation"
+            style={{ textDecoration: "none", color: "#e4ebf3" }}
+          >
+            <FontAwesomeIcon
+              icon={faNotesMedical}
+              className={styles.sixthSectionIcon}
+            />
+            <h1>{t("homeCategories.7")}</h1>
+            <h6>{t("homeCategories.8")}</h6>
+          </Link>
         </div>
         <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faSquarePhoneFlip}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.5")}</h1>
-          <h6>{t("homeCategories.6")}</h6>
+          <Link
+            to={`https://wa.me/${+905550333444}`}
+            style={{ textDecoration: "none", color: "#e4ebf3" }}
+          >
+            <FontAwesomeIcon
+              icon={faCalendarCheck}
+              className={styles.sixthSectionIcon}
+            />
+            <h1>{t("homeCategories.9")}</h1>
+            <h6>{t("homeCategories.10")}</h6>
+          </Link>
         </div>
-        <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faNotesMedical}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.7")}</h1>
-          <h6>{t("homeCategories.8")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faCalendarCheck}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.9")}</h1>
-          <h6>{t("homeCategories.10")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
+        {/* <div className={styles.sixthSectionItem}>
           <FontAwesomeIcon
             icon={faStethoscope}
             className={styles.sixthSectionIcon}
           />
           <h1>{t("homeCategories.11")}</h1>
           <h6>{t("homeCategories.12")}</h6>
+        </div> */}
+        <div className={styles.sixthSectionItem}>
+          <Link
+            to="/doctors"
+            style={{ textDecoration: "none", color: "#e4ebf3" }}
+          >
+            <FontAwesomeIcon
+              icon={faUserDoctor}
+              className={styles.sixthSectionIcon}
+            />
+            <h1>{t("homeCategories.13")}</h1>
+            <h6>{t("homeCategories.14")}</h6>
+          </Link>
         </div>
         <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faUserDoctor}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.13")}</h1>
-          <h6>{t("homeCategories.14")}</h6>
+          <Link
+            to={`https://wa.me/${+905550333444}`}
+            style={{ textDecoration: "none", color: "#e4ebf3" }}
+          >
+            <FontAwesomeIcon
+              icon={faMoneyCheck}
+              className={styles.sixthSectionIcon}
+            />
+            <h1>{t("homeCategories.15")}</h1>
+            <h6>{t("homeCategories.16")}</h6>
+          </Link>
         </div>
-        <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faMoneyCheck}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.15")}</h1>
-          <h6>{t("homeCategories.16")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
+        {/* <div className={styles.sixthSectionItem}>
           <FontAwesomeIcon icon={faPlane} className={styles.sixthSectionIcon} />
           <h2>{t("homeCategories.17")}</h2>
           <h6>{t("homeCategories.18")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
+        </div> */}
+        {/* <div className={styles.sixthSectionItem}>
           <FontAwesomeIcon icon={faClock} className={styles.sixthSectionIcon} />
           <h1>{t("homeCategories.19")}</h1>
           <h6>{t("homeCategories.20")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
+        </div> */}
+        {/* <div className={styles.sixthSectionItem}>
           <FontAwesomeIcon
             icon={faHandshake}
             className={styles.sixthSectionIcon}
           />
           <h1>{t("homeCategories.1")}</h1>
           <h6>{t("homeCategories.2")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faLanguage}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.1")}</h1>
-          <h6>{t("homeCategories.2")}</h6>
-        </div>
-        <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faPeopleGroup}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.1")}</h1>
-          <h6>{t("homeCategories.2")}</h6>
-        </div>
+        </div> */}
       </div>
       <div className={`shadow-lg p-3 mb-5 bg-white ${styles.ThirdHeader}`}>
         <ThirdHeader />
