@@ -18,7 +18,7 @@ const Footer = () => {
   const { Footer } = Layout;
   const footerStyle = {
     color: "#fff",
-    backgroundColor: "#002535"
+    backgroundColor: "#002535",
   };
   const { t } = useTranslation();
   const emailAddress = "deniz@deniznedimoglu";
@@ -30,7 +30,7 @@ const Footer = () => {
       <Space
         direction="vertical"
         style={{
-          width: "100%"
+          width: "100%",
         }}
       >
         <div>
@@ -54,7 +54,7 @@ const Footer = () => {
                     &nbsp; &nbsp;
                     {t("footerContact.call")}
                   </a>
-                  <a href="tel:+905550333444" className={style.link}>
+                  <a href="https://wa.me/00905550333444" className={style.link}>
                     <FontAwesomeIcon icon={faWhatsapp} />
                     &nbsp; &nbsp;
                     {t("footerContact.message")}
@@ -65,13 +65,13 @@ const Footer = () => {
                     src={certificate}
                     alt="certificate"
                     style={{ width: "50%", height: "90%" }}
-                    className="p-3"
+                    className="p-2"
                   />
                   <img
                     src={certificate}
                     alt="certificate"
                     style={{ width: "50%", height: "90%" }}
-                    className="p-3 "
+                    className="p-2 "
                   />
                 </div>
               </div>
@@ -79,36 +79,7 @@ const Footer = () => {
 
             <div className={style.items}>
               <ul className={style.itemList}>
-                <h3 className={style.header}>{t("footerHeaders.1")}</h3>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Body")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Face")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Breast")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Hair")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Skin")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Mecical Aesthtic")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.cosmetic Surgery")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Teeth Aesthtic")}</div>
-                </li>
-              </ul>
-
-              <ul className={style.itemList}>
-                <h3 className={style.header}>{t("footerDetails.1")}</h3>
-
+                <h3 className="my-4">{t("footerDetails.1")}</h3>
                 <li className={style.item}>
                   <div> {t("footerDetails.2")}</div>
                 </li>
@@ -130,8 +101,23 @@ const Footer = () => {
                 <li className={style.item}>
                   <div> {t("footerDetails.8")}</div>
                 </li>
+              </ul>
+              <ul className={style.itemList}>
+                <h3 className="my-4">{t("footerHeaders.1")}</h3>
                 <li className={style.item}>
-                  <div> {t("footerDetails.9")}</div>
+                  <div> {t("footerHeaders.Accommodations")}</div>
+                </li>
+                <li className={style.item}>
+                  <div> {t("footerHeaders.Translation")}</div>
+                </li>
+                <li className={style.item}>
+                  <div> {t("footerHeaders.Flight")}</div>
+                </li>
+                <li className={style.item}>
+                  <div> {t("footerHeaders.Transportation")}</div>
+                </li>
+                <li className={style.item}>
+                  <div> {t("footerHeaders.Incurance")}</div>
                 </li>
               </ul>
             </div>
@@ -150,12 +136,12 @@ const Footer = () => {
             style={{
               backgroundColor: "#002535",
               height: "2px",
-              border: "none"
+              border: "none",
             }}
           />
           <div className={style.navigation1}>
             <div className="">
-              <h6 className="text-muted">
+              <h6 className="text-muted m-2">
                 NEDIMOĞLU SAĞLIK TURİZMİ VE DANIŞMANLIK <br />
                 TİC.LTD.ŞTİ
               </h6>
@@ -170,7 +156,7 @@ const Footer = () => {
                 </a>
               </h4>
               <h4>
-                <a href="https://www.instagram.com/estesiriusclinic/">
+                <a href="https://www.instagram.com/dn_health_tourism/">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className={style.socialmedia}
@@ -188,7 +174,7 @@ const Footer = () => {
                 </a>
               </h4>
               <h4>
-                <a href="https://www.instagram.com/estesiriusclinic/">
+                <a href="https://www.linkedin.com/in/dn-health-tourism-417986266">
                   <FontAwesomeIcon
                     icon={faLinkedinIn}
                     className={style.socialmedia}

@@ -134,9 +134,9 @@ const Home = () => {
       <div className={styles.fourthSection}>
         <div>
           <h1 className={`text-center my-4 py-4 ${styles.HeaderText}`}>
-            Deniz Nedimoğlu Health Tourism
+            {t("HomeCard.title8")}
           </h1>
-          <h2 className="text-muted">Your Bueaty Will Be In Good Hands</h2>
+          <h2 className="text-muted"> {t("HomeCard.title7")}</h2>
         </div>
       </div>
       <div className={styles.fifthSection}>
@@ -181,11 +181,6 @@ const Home = () => {
         {t("homeCategories.header")}
       </h1>
       <div className={styles.sixthSection}>
-        {/* <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon icon={faClock} className={styles.sixthSectionIcon} />
-          <h1>{t("homeCategories.1")}</h1>
-          <h6>{t("homeCategories.2")}</h6>
-        </div> */}
         <div className={styles.sixthSectionItem}>
           <Link
             to={`https://wa.me/${+905550333444}`}
@@ -242,14 +237,7 @@ const Home = () => {
             <h6>{t("homeCategories.10")}</h6>
           </Link>
         </div>
-        {/* <div className={styles.sixthSectionItem}>
-          <FontAwesomeIcon
-            icon={faStethoscope}
-            className={styles.sixthSectionIcon}
-          />
-          <h1>{t("homeCategories.11")}</h1>
-          <h6>{t("homeCategories.12")}</h6>
-        </div> */}
+
         <div className={styles.sixthSectionItem}>
           <Link
             to="/doctors"

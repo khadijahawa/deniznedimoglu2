@@ -34,8 +34,8 @@
 }
 
 .items {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
   font-size: 20px;
   padding-top: 5%;
   color: #f1f1f1;
@@ -45,7 +45,7 @@
   border-left: 1px solid rgba(255, 255, 255, 0.555);
   padding-left: 20px;
   margin-left: 10px;
-  margin-right: 40px;
+  /* margin-right: 10px; */
   border-width: 3px;
   text-decoration: none;
 }

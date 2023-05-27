@@ -21,7 +21,7 @@ function Estesirius() {
 
         <Col
           xs={12}
-          md={4}
+          md={6}
           className="d-flex align-items-center justify-content-center py-4 my-4"
         >
           <Image
@@ -33,7 +33,7 @@ function Estesirius() {
 
         <Col
           xs={12}
-          md={8}
+          md={6}
           className="d-flex align-items-center justify-content-center"
         >
           <div className="mb-4">

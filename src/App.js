@@ -16,6 +16,10 @@ import DentalCorperate from "./pages/DentalCorperate";
 import Accomedation from "./pages/Accomedation";
 import Doctors from "./pages/Doctors";
 import Plastic from "./pages/Plastic";
+import InsuranceServices from "./pages/InsuranceServices";
+import Translation from "./pages/Translation";
+import FlightServices from "./pages/FlightServices";
+import Transportation from "./pages/Transportation";
 
 const App = () => {
   return (
@@ -39,6 +43,15 @@ const App = () => {
         <Route exact path="/dental-Corperate" element={<DentalCorperate />} />
         <Route exact path="/accomedation" element={<Accomedation />} />
         <Route exact path="/doctors" element={<Doctors />} />
+        <Route
+          exact
+          path="/insurance-services"
+          element={<InsuranceServices />}
+        />
+        <Route exact path="/flight-services" element={<FlightServices />} />
+        <Route exact path="/translation" element={<Translation />} />
+        <Route exact path="/transportation" element={<Transportation />} />
+
         <Route exact path="/plastic-clinic" element={<Plastic />} />
       </Routes>
       <Footer />

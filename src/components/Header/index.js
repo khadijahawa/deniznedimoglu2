@@ -50,7 +50,7 @@ function Header() {
           </h6>
           <h6>
             <a
-              href="https://www.instagram.com/estesiriusclinic/"
+              href="https://www.instagram.com/dn_health_tourism/"
               className={style.link}
             >
               <FontAwesomeIcon

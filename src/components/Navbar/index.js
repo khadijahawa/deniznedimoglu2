@@ -76,6 +76,60 @@ function Navbar() {
               <NavDropdown title={t("navbar.4")} id="basic-nav-dropdown">
                 <NavDropdown.Item>
                   <Link
+                    to="/accomedation"
+                    style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
+                  >
+                    {t("navbar.16")}
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <Link
+                    to="/flight-services"
+                    style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
+                  >
+                    {t("navbar.17")}
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <Link
+                    to="/insurance-services"
+                    style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
+                  >
+                    {t("navbar.19")}
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <Link
+                    to="/translation"
+                    style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
+                  >
+                    {t("navbar.20")}
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item>
+                  <Link
+                    to="/transportation"
+                    style={{ textDecoration: "none", color: "black" }}
+                    onClick={() => setIsNavExpanded(false)}
+                  >
+                    {t("navbar.15")}
+                  </Link>
+                </NavDropdown.Item>
+              </NavDropdown>
+            </li>
+
+            <li className={style.items}>
+              <NavDropdown title={t("navbar.21")} id="basic-nav-dropdown">
+                <NavDropdown.Item>
+                  <Link
                     to="/skin"
                     style={{ textDecoration: "none", color: "black" }}
                     onClick={() => setIsNavExpanded(false)}
@@ -115,7 +169,6 @@ function Navbar() {
                 </NavDropdown.Item>
               </NavDropdown>
             </li>
-
             <li className={style.items}>
               <NavDropdown title={t("navbar.11")} id="basic-nav-dropdown">
                 <NavDropdown.Item>
