@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b446c17f.css",
-    "main.js": "/static/js/main.b6223f31.js",
+    "main.css": "/static/css/main.b7100fc1.css",
+    "main.js": "/static/js/main.d19d1bc6.js",
     "static/js/787.7767244b.chunk.js": "/static/js/787.7767244b.chunk.js",
     "static/media/translation3.jpg": "/static/media/translation3.0898130a4ac5755c388d.jpg",
     "static/media/2.jpg": "/static/media/2.30489bce65319a1dc122.jpg",
@@ -9,11 +9,9 @@
     "static/media/derma.jpg": "/static/media/derma.cbe30d94a61021a1aa84.jpg",
     "static/media/facemask2.jpg": "/static/media/facemask2.1ebe15c25c84856f45c4.jpg",
     "static/media/facemask4.jpg": "/static/media/facemask4.fdff60f7cbf535c61291.jpg",
-    "static/media/homecard4.jpg": "/static/media/homecard4.73b81fdb9807f46575d2.jpg",
     "static/media/carbonpeeling.jpg": "/static/media/carbonpeeling.3589d976f57b84f13ce1.jpg",
     "static/media/insurance2.jpg": "/static/media/insurance2.32fcce6fe25202f56c04.jpg",
     "static/media/teeth.jpg": "/static/media/teeth.e2299720c8048baf5857.jpg",
-    "static/media/homecard6.jpg": "/static/media/homecard6.0bf97f8e2f80e5a5ca6c.jpg",
     "static/media/444.jpg": "/static/media/444.9dc4c79022bacb8a17cf.jpg",
     "static/media/uber.jpg": "/static/media/uber.366a2b253cc41ccaccba.jpg",
     "static/media/44.jpg": "/static/media/44.37724415f5756b445455.jpg",
@@ -26,7 +24,6 @@
     "static/media/peeling.jpg": "/static/media/peeling.6f1b23788030d95decb8.jpg",
     "static/media/avangart.jpg": "/static/media/avangart.b2863806ef85ae8e716f.jpg",
     "static/media/porescleaning.jpg": "/static/media/porescleaning.089f788d2de4173b35ea.jpg",
-    "static/media/homecard.jpg": "/static/media/homecard.ba0119c08497abd7d547.jpg",
     "static/media/homecard8.jpg": "/static/media/homecard8.6aa9c46ba0763b18a4cf.jpg",
     "static/media/6.jpeg": "/static/media/6.76ad23c36fadd8f097c1.jpeg",
     "static/media/homecard7.jpg": "/static/media/homecard7.02ac54628dcd3183c7c7.jpg",
@@ -47,12 +44,12 @@
     "static/media/8.jpeg": "/static/media/8.8d63df28401efeee061f.jpeg",
     "static/media/13.jpeg": "/static/media/13.9eeea137d4210c289afc.jpeg",
     "index.html": "/index.html",
-    "main.b446c17f.css.map": "/static/css/main.b446c17f.css.map",
-    "main.b6223f31.js.map": "/static/js/main.b6223f31.js.map",
+    "main.b7100fc1.css.map": "/static/css/main.b7100fc1.css.map",
+    "main.d19d1bc6.js.map": "/static/js/main.d19d1bc6.js.map",
     "787.7767244b.chunk.js.map": "/static/js/787.7767244b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b446c17f.css",
-    "static/js/main.b6223f31.js"
+    "static/css/main.b7100fc1.css",
+    "static/js/main.d19d1bc6.js"
   ]
 }
