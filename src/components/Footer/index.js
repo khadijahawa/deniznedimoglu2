@@ -13,6 +13,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import logo from "../../utils/logo.png";
 import certificate from "../../utils/certificate.jpeg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { Footer } = Layout;
@@ -80,45 +81,42 @@ const Footer = () => {
             <div className={style.items}>
               <ul className={style.itemList}>
                 <h3 className="my-4">{t("footerDetails.1")}</h3>
-                <li className={style.item}>
-                  <div> {t("footerDetails.2")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerDetails.3")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerDetails.4")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerDetails.5")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerDetails.6")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerDetails.7")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerDetails.8")}</div>
-                </li>
+                <Link to="/" className={style.item}>
+                  <li className={style.item}>{t("footerDetails.0")}</li>
+                </Link>
+                <Link to="/medical-tourism-in-turkey" className={style.item}>
+                  <li className={style.item}>{t("footerDetails.2")}</li>
+                </Link>
+                <Link to="/contact-us" className={style.item}>
+                  <li> {t("footerDetails.3")}</li>
+                </Link>
+                <Link
+                  to={`https://wa.me/${+905550333444}`}
+                  className={style.item}
+                >
+                  <li> {t("footerDetails.4")}</li>
+                </Link>
+                <Link to="/about" className={style.item}>
+                  <li> {t("footerDetails.5")}</li>
+                </Link>
               </ul>
               <ul className={style.itemList}>
                 <h3 className="my-4">{t("footerHeaders.1")}</h3>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Accommodations")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Translation")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Flight")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Transportation")}</div>
-                </li>
-                <li className={style.item}>
-                  <div> {t("footerHeaders.Incurance")}</div>
-                </li>
+                <Link to="/accomedation" className={style.item}>
+                  <li> {t("footerHeaders.Accommodations")}</li>
+                </Link>
+                <Link to="/translation" className={style.item}>
+                  <li> {t("footerHeaders.Translation")}</li>
+                </Link>
+                <Link to="/flight-services" className={style.item}>
+                  <li> {t("footerHeaders.Flight")}</li>
+                </Link>
+                <Link to="/transportation" className={style.item}>
+                  <li> {t("footerHeaders.Transportation")}</li>
+                </Link>
+                <Link to="/insurance-services" className={style.item}>
+                  <li> {t("footerHeaders.Insurance")}</li>
+                </Link>
               </ul>
             </div>
             <div className={style.iframeContainer}>

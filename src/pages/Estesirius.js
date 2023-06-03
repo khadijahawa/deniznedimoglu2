@@ -18,7 +18,6 @@ function Estesirius() {
         >
           {t("estesirius.1")}
         </h1>
-
         <Col
           xs={12}
           md={6}
@@ -30,7 +29,6 @@ function Estesirius() {
             alt="about"
           />
         </Col>
-
         <Col
           xs={12}
           md={6}
@@ -72,16 +70,28 @@ function Estesirius() {
               <li>{t("estesirius.12")}</li>
               <li>{t("estesirius.13")}</li>
             </ul>
-            <h4 className="my-4 py-4 ">
-              <Link to={`tel:${+905550344488}`}>
+            <h4 className="my-4">
+              <Link to={`https://wa.me/${+905550333444}`}>
                 <Badge bg="dark">{t("estesirius.14")}</Badge>
               </Link>
             </h4>
-            <h4 className="">
+            <h4>
               <Link to={"https://drdilekakin.com/"}>
                 <Badge bg="dark">{t("estesirius.15")}</Badge>
               </Link>
             </h4>
+            <h6 className="my-4">
+              <Link to="/hair" className={styles.DoctorPageServiceLink}>
+                <Badge bg="dark">{t("estesirius.16")}</Badge>
+              </Link>
+            </h6>
+            <h6 className="my-4">
+              <Link to="/skin" className={styles.DoctorPageServiceLink}>
+                <Badge bg="warning" text="dark" pill>
+                  {t("estesirius.17")}
+                </Badge>
+              </Link>
+            </h6>
           </div>
         </Col>
       </Row>

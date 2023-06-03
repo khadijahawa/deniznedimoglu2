@@ -5,9 +5,15 @@ import translation from "../utils/services2/translation3.jpg";
 import { Form, Input, Button, message } from "antd";
 import styles from "./style.module.css";
 import emailjs from "emailjs-com";
+import { useLocation } from "react-router-dom";
 
 function Translation() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
+
   const onFinish = (values) => {
     const templateParams = {
       from_name: values.name,
@@ -40,7 +46,7 @@ function Translation() {
       <Container>
         <div className="d-flex justify-content-evenly py-4 my-4 flex-sm-nowrap flex-wrap">
           <Row>
-            <Col>
+            <Col xs={12} md={6}>
               <div className="my-4 py-4 bd-highlight">
                 <Image
                   src={translation}
@@ -51,7 +57,7 @@ function Translation() {
                 <p>{t("pageHeaders.6")}</p>
               </div>
             </Col>
-            <Col>
+            <Col xs={12} md={6}>
               <div className="flex-grow-1 bd-highlight w-100">
                 <h1
                   className={`text-center my-4 py-4 ${styles.contactHeaderText}`}

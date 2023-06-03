@@ -10,11 +10,16 @@ import hotel1 from "../utils/hotel11.jpg";
 import hotel2 from "../utils/hotel2.jpg";
 import hotel3 from "../utils/hotel12.jpg";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 const { Meta } = Card;
 
 function Accomedation() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
 
   return (
     <div>

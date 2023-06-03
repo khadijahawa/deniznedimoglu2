@@ -4,9 +4,14 @@ import style from "./style.module.css";
 import hair1 from "../../utils/services/6.jpeg";
 import hair2 from "../../utils/services/8.jpeg";
 import hair3 from "../../utils/services/5.jpeg";
+import { useLocation } from "react-router-dom";
 
 function Hair() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
 
   return (
     <div>

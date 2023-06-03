@@ -6,11 +6,11 @@ import first from "../utils/homePics/11.jpg";
 import second from "../utils/homePics/2.jpg";
 import third from "../utils/homePics/44.jpg";
 import ThirdHeader from "../components/ThirdHeader/ThirdHeader";
-import img1 from "../utils/homePics/homecard.jpg";
-import img3 from "../utils/homePics/homecard4.jpg";
+// import img1 from "../utils/homePics/homecard.jpg";
+// import img3 from "../utils/homePics/homecard4.jpg";
+// import img5 from "../utils/homePics/homecard6.jpg";
 import CountUp from "react-countup";
 
-import img5 from "../utils/homePics/homecard6.jpg";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faClock } from "@fortawesome/free-solid-svg-icons";
@@ -26,13 +26,17 @@ import { faMoneyCheck } from "@fortawesome/free-solid-svg-icons";
 // import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 // import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-import { Card } from "antd";
-
-const { Meta } = Card;
+// import { Card } from "antd";
+// const { Meta } = Card;
 
 const Home = () => {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
 
   return (
     <div className={styles.homeContainer}>
@@ -139,7 +143,7 @@ const Home = () => {
           <h2 className="text-muted"> {t("HomeCard.title7")}</h2>
         </div>
       </div>
-      <div className={styles.fifthSection}>
+      {/* <div className={styles.fifthSection}>
         <Link
           to="/skin"
           style={{ textDecoration: "none" }}
@@ -176,7 +180,7 @@ const Home = () => {
             />
           </Card>
         </Link>
-      </div>
+      </div> */}
       <h1 className={` shadow-lg p-3 text-center my-4 py-4 ${styles.header}`}>
         {t("homeCategories.header")}
       </h1>

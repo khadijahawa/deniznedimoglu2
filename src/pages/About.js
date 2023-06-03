@@ -5,13 +5,19 @@ import { useTranslation } from "react-i18next";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
 import { useSpring, animated, config } from "react-spring";
+import { useLocation } from "react-router-dom";
 
 function About() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
+
   const animation = useSpring({
     from: { opacity: 0, transform: "translateY(50px) translateX(-50px)" },
     to: { opacity: 1, transform: "translateY(0) translateX(0)" },
-    config: config.molasses
+    config: config.molasses,
   });
 
   return (

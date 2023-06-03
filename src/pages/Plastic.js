@@ -56,6 +56,16 @@ function Plastic() {
                   <Badge bg="dark">{t("plasticClinic.10")}</Badge>
                 </Link>
               </h4>
+              <h6 className="my-4">
+                <Link
+                  to="/plastic-surguries"
+                  className={styles.DoctorPageServiceLink}
+                >
+                  <Badge bg="warning" text="dark" pill>
+                    {t("plasticClinic.11")}
+                  </Badge>
+                </Link>
+              </h6>
             </div>
           </div>
         </Col>

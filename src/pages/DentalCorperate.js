@@ -83,6 +83,13 @@ function DentalCorperate() {
                 <Badge bg="dark">{t("dentalcorperation.12")}</Badge>
               </Link>
             </h4>
+            <h6 className="my-4 py-4 ">
+              <Link to="/dental" className={styles.DoctorPageServiceLink}>
+                <Badge bg="warning" text="dark" pill>
+                  {t("dentalcorperation.13")}
+                </Badge>
+              </Link>
+            </h6>
           </div>
         </Col>
       </Row>

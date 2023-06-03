@@ -3,9 +3,14 @@ import { useTranslation } from "react-i18next";
 import style from "./style.module.css";
 import smile from "../../utils/444.jpg";
 import teeth from "../../utils/teeth.jpg";
+import { useLocation } from "react-router-dom";
 
 function Dental() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
 
   return (
     <div>

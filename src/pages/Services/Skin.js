@@ -15,9 +15,15 @@ import facemask2 from "../../utils/homePics/facemask2.jpg";
 import acne from "../../utils/homePics/acne.jpg";
 import peeling from "../../utils/homePics/peeling.jpg";
 import derma from "../../utils/homePics/derma.jpg";
+import { useLocation } from "react-router-dom";
 
 function Skin() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
+
   const { Meta } = Card;
 
   return (

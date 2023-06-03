@@ -4,9 +4,14 @@ import Badge from "react-bootstrap/Badge";
 // import image1 from ".././utils/services/11.jpeg";
 import image2 from ".././utils/services/13.jpeg";
 import styles from "./style.module.css";
+import { useLocation } from "react-router-dom";
 
 function MedicalTourism() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
 
   return (
     <div className="container">

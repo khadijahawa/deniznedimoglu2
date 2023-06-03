@@ -5,9 +5,14 @@ import facial from "../../utils/services/2.jpeg";
 import body from "../../utils/services/7.jpeg";
 import breast from "../../utils/services/4.jpeg";
 import medical from "../../utils/services/10.jpeg";
+import { useLocation } from "react-router-dom";
 
 function PlasticSurguries() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
 
   return (
     <div>

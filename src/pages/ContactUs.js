@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useLocation } from "react-router-dom";
 
 import styles from "./style.module.css";
 import emailjs from "emailjs-com";
@@ -15,6 +16,11 @@ import { useSpring, animated, config } from "react-spring";
 
 function ContactUs() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+  }, [pathname]);
+
   const animation = useSpring({
     from: { opacity: 0, transform: "translateY(50px) translateX(-50px)" },
     to: { opacity: 1, transform: "translateY(0) translateX(0)" },

@@ -177,6 +177,12 @@
   letter-spacing: 0.5rem;
   color: #002535;
 }
+.DoctorPageServiceLink {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* letter-spacing: 0.1rem; */
+  /* color: #002535; */
+}
 .imageParent {
   position: relative;
 }
