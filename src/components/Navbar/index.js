@@ -92,7 +92,6 @@ function Navbar() {
                   >
                     {t("navbar.17")}
                   </Link>
-                  
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
@@ -127,7 +126,7 @@ function Navbar() {
               </NavDropdown>
             </li>
 
-            <li className={style.items}>
+            {/* <li className={style.items}>
               <NavDropdown title={t("navbar.21")} id="basic-nav-dropdown">
                 <NavDropdown.Item>
                   <Link
@@ -169,7 +168,7 @@ function Navbar() {
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
-            </li>
+            </li> */}
             <li className={style.items}>
               <NavDropdown title={t("navbar.11")} id="basic-nav-dropdown">
                 <NavDropdown.Item>

@@ -71,7 +71,7 @@ function Estesirius() {
               <li>{t("estesirius.13")}</li>
             </ul>
             <h4 className="my-4">
-              <Link to={`https://wa.me/${+905550333444}`}>
+              <Link to={`https://wa.me/${+905055217486}`}>
                 <Badge bg="dark">{t("estesirius.14")}</Badge>
               </Link>
             </h4>
