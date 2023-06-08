@@ -19,7 +19,7 @@ const Footer = () => {
   const { Footer } = Layout;
   const footerStyle = {
     color: "#fff",
-    backgroundColor: "#002535",
+    backgroundColor: "#002535"
   };
   const { t } = useTranslation();
   const emailAddress = "deniz@deniznedimoglu";
@@ -31,7 +31,7 @@ const Footer = () => {
       <Space
         direction="vertical"
         style={{
-          width: "100%",
+          width: "100%"
         }}
       >
         <div>
@@ -134,7 +134,7 @@ const Footer = () => {
             style={{
               backgroundColor: "#002535",
               height: "2px",
-              border: "none",
+              border: "none"
             }}
           />
           <div className={style.navigation1}>
