@@ -20,7 +20,7 @@ const ThirdHeader = () => {
         {(isNavExpanded || screenWidth > 850) && (
           <div className={style.list}>
             <div className={style.items}>
-              <a href="tel:+905550333444" className={style.items1}>
+              <Link to={`tel:${+905550333444}`} className={style.items1}>
                 <div>
                   <FontAwesomeIcon
                     icon={faPhoneVolume}
@@ -32,10 +32,13 @@ const ThirdHeader = () => {
                   <br />
                   <span>{t("header3.2")} </span>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className={style.items}>
-              <a href="https://wa.me/00905550333444" className={style.items2}>
+              <Link
+                to={`https://wa.me/${+905550333444}`}
+                className={style.items2}
+              >
                 <div>
                   <FontAwesomeIcon icon={faWhatsapp} className={style.icon} />
                 </div>
@@ -44,15 +47,15 @@ const ThirdHeader = () => {
                   <br />
                   <span>{t("header3.3")} </span>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <div className={style.items}>
-              <a href="https://wa.me/00905550333444" className={style.items2}>
+              <Link to={`tel:${+905550333444}`} className={style.items2}>
                 <Badge bg="dark">
                   <div className={style.button}>{t("header3.5")} </div>
                 </Badge>
-              </a>
+              </Link>
             </div>
           </div>
         )}

@@ -50,16 +50,19 @@ const Footer = () => {
                     &nbsp; &nbsp;
                     {t("footerContact.email")}
                   </a>
-                  <a href="tel:+905550333444" className={style.link}>
+                  <Link to={`tel:${+905550333444}`} className={style.link}>
                     <FontAwesomeIcon icon={faPhone} />
                     &nbsp; &nbsp;
                     {t("footerContact.call")}
-                  </a>
-                  <a href="https://wa.me/00905550333444" className={style.link}>
+                  </Link>
+                  <Link
+                    to={`https://wa.me/${+905550333444}`}
+                    className={style.link}
+                  >
                     <FontAwesomeIcon icon={faWhatsapp} />
                     &nbsp; &nbsp;
                     {t("footerContact.message")}
-                  </a>
+                  </Link>
                 </div>
                 <div className={style.imgSection}>
                   <img
@@ -146,12 +149,12 @@ const Footer = () => {
             </div>
             <div className={style.navigation2}>
               <h4>
-                <a href="https://wa.me/00905550333444">
+                <Link to={`https://wa.me/${+905550333444}`}>
                   <FontAwesomeIcon
                     icon={faWhatsapp}
                     className={style.socialmedia}
                   />
-                </a>
+                </Link>
               </h4>
               <h4>
                 <a href="https://www.instagram.com/dn_health_tourism/">
