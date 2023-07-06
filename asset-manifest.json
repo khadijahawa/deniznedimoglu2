@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddbc8156.css",
-    "main.js": "/static/js/main.3dc5dc3f.js",
+    "main.css": "/static/css/main.b7100fc1.css",
+    "main.js": "/static/js/main.dff506d3.js",
     "static/js/787.7767244b.chunk.js": "/static/js/787.7767244b.chunk.js",
     "static/media/translation3.jpg": "/static/media/translation3.0898130a4ac5755c388d.jpg",
     "static/media/2.jpg": "/static/media/2.30489bce65319a1dc122.jpg",
@@ -35,21 +35,21 @@
     "static/media/4.jpeg": "/static/media/4.81506db98aa921b330b2.jpeg",
     "static/media/docccc.png": "/static/media/docccc.a66103d2c5bc4a3a1084.png",
     "static/media/2.jpeg": "/static/media/2.2fa3deb52c167030f852.jpeg",
-    "static/media/estesirius2.jpeg": "/static/media/estesirius2.8ac7f9083b27f3359ae0.jpeg",
     "static/media/7.jpeg": "/static/media/7.3eb3743d47f873b492ce.jpeg",
     "static/media/certificate.jpeg": "/static/media/certificate.dddcaa16c3a619a4b598.jpeg",
     "static/media/hotel2.jpg": "/static/media/hotel2.27669360579f5f2cec3b.jpg",
     "static/media/hotel11.jpg": "/static/media/hotel11.147a6215edd34f13c7a1.jpg",
+    "static/media/estesirius2.jpeg": "/static/media/estesirius2.3aab4b9d11075db363a0.jpeg",
     "static/media/logo.png": "/static/media/logo.a9cef4c9d260b94256e5.png",
     "static/media/8.jpeg": "/static/media/8.8d63df28401efeee061f.jpeg",
     "static/media/13.jpeg": "/static/media/13.9eeea137d4210c289afc.jpeg",
     "index.html": "/index.html",
-    "main.ddbc8156.css.map": "/static/css/main.ddbc8156.css.map",
-    "main.3dc5dc3f.js.map": "/static/js/main.3dc5dc3f.js.map",
+    "main.b7100fc1.css.map": "/static/css/main.b7100fc1.css.map",
+    "main.dff506d3.js.map": "/static/js/main.dff506d3.js.map",
     "787.7767244b.chunk.js.map": "/static/js/787.7767244b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddbc8156.css",
-    "static/js/main.3dc5dc3f.js"
+    "static/css/main.b7100fc1.css",
+    "static/js/main.dff506d3.js"
   ]
 }
