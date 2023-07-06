@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import styles from "./style.module.css";
 import tulunay from "../utils/tulunay.jpg";
+import belge from "../utils/belge.jpeg";
+
 import Badge from "react-bootstrap/Badge";
 import { Link } from "react-router-dom";
 
@@ -46,27 +48,50 @@ function Plastic() {
                 <li>{t("plasticClinic.7")}</li>
                 <li>{t("plasticClinic.8")}</li>
               </ul>
-              <h4 className="my-4 ">
-                <Link to={`tel:${+905331292721}`}>
-                  <Badge bg="dark">{t("plasticClinic.9")}</Badge>
-                </Link>
-              </h4>
-              <h4 className="mb-4">
-                <Link to={"https://www.drselahattintulunay.com/"}>
-                  <Badge bg="dark">{t("plasticClinic.10")}</Badge>
-                </Link>
-              </h4>
-              <h6 className="my-4">
-                <Link
-                  to="/plastic-surguries"
-                  className={styles.DoctorPageServiceLink}
-                >
-                  <Badge bg="warning" text="dark" pill>
-                    {t("plasticClinic.11")}
-                  </Badge>
-                </Link>
-              </h6>
             </div>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col
+          xs={12}
+          md={6}
+          className="d-flex align-items-center justify-content-center py-4 my-4"
+        >
+          <Image
+            src={belge}
+            className={`w-100 h-100 shadow-lg rounded m-4 p-4`}
+            alt="about"
+          />
+        </Col>
+        <Col
+          xs={12}
+          md={6}
+          className="d-flex align-items-center justify-content-center py-4 my-4"
+        >
+          <div className="mb-4">
+            {/* <h4 className="my-4 py-4 "> {t("estesirius.4")}</h4> */}
+
+            <h4 className="my-4 ">
+              <Link to={`tel:${+905331292721}`}>
+                <Badge bg="dark">{t("plasticClinic.9")}</Badge>
+              </Link>
+            </h4>
+            <h4 className="mb-4">
+              <Link to={"https://www.drselahattintulunay.com/"}>
+                <Badge bg="dark">{t("plasticClinic.10")}</Badge>
+              </Link>
+            </h4>
+            <h6 className="my-4">
+              <Link
+                to="/plastic-surguries"
+                className={styles.DoctorPageServiceLink}
+              >
+                <Badge bg="warning" text="dark" pill>
+                  {t("plasticClinic.11")}
+                </Badge>
+              </Link>
+            </h6>
           </div>
         </Col>
       </Row>

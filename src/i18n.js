@@ -510,7 +510,7 @@ i18n
           },
           estesirius: {
             1: "Dr.Dilek Akın Aqrah ",
-            2: "Dr.Dilek Akın Aqrah Muyanehane",
+            2: "Dr.Dilek Akın Aqrah Muayenehanesi",
             3: "Kurumsal klinik Estesirius'ta, en son saç ve cilt tedavilerini sunduğumuz yerdeyiz.Kliniğimiz, hastalarımıza en iyi bakımı sunmaya adanmış,\n  son derece yetenekli ve tecrübeli tıbbi profesyoneller tarafından çalıştırılmaktadır.\n Saç dökülmesi ve cilt sorunlarının birçok insan için büyük bir sıkıntı kaynağı olabileceğini anlıyoruz, bu nedenle bu sorunları ele almaya yönelik çözümler sunan bir dizi tedavi seçeneği sunuyoruz.\n \n Saç tedavi hizmetlerimiz, hastalarımızın doğal görünümlü ve uzun süreli sonuçlar elde etmelerini sağlamak için en gelişmiş teknikleri kullanır.Saç tedavisi hizmetlerimize ek olarak, lazer cilt yenileme, kimyasal peeling ve mikrodermabrazyon gibi birçok cilt tedavisi seçeneği de sunuyoruz.Bu tedaviler, akne ve güneş hasarı gibi birçok cilt sorununu ele almaya yöneliktir.\n\n Kliniğimizde, her hasta kişiselleştirilmiş bakımı hak eder.\n  Bu nedenle, her bireyi tanımak ve tedavilerimizi onların özel ihtiyaçlarına göre uyarlamak için zaman ayırıyoruz.\n Amacımız, hastalarımızın kendi ciltlerinde kendine güvenli ve rahat hissetmelerine yardımcı olmaktır ve bunu güvenli, etkili ve son derece ileri teknolojili tedavilerle başarmak için taahhütte bulunuyoruz.",
             4: "Hizmetlerimizin En İyisi",
             5: "Mezoterapi",
@@ -520,7 +520,7 @@ i18n
             9: "Kalıcı Makyaj",
             10: "Plexer",
             11: "Cilt Bakımı",
-            12: "Stem Hücre Tedavisi",
+            12: "Kök hücre tedavisi",
             13: "Botoks",
             14: "Clinic'i arayın",
             15: "Web Sitesine Geçin",
@@ -528,8 +528,8 @@ i18n
             17: "Hizmetlerimizi Kontrol Edin",
           },
           dentalcorperation: {
-            1: "Special Avangart Mouth and Denatl Muyanehane",
-            2: "Avangart Muyanehane",
+            1: "Special Avangart Mouth and Denatl",
+            2: "Avangart Muayenehanesi",
             3: "Avangart Ağız ve Diş Sağlığı Polikliniği, İstanbul Mecidiyeköy'de hizmet vermektedir.\n Hastaların röntgen görüntülemesi Kliniğimizde panoramik X-ışını cihazı ile yapılmaktadır.\n Avangart Ağız ve Diş Sağlığı Polikliniği, Türkiye Sağlık Bakanlığı'nın Uluslararası Sağlık Turizmi Sağlık Tesisi yetkinlik kriterlerine ve Bakanlık yönetmeliğinin genel prensiplerine uygun olarak uluslararası sağlık turizmi faaliyetlerinde bulunmaya yetkilidir.\n Tedaviler pandemi koşullarına uygun şekilde gerçekleştirilmektedir.\n Hijyen kurallarına maksimum önem verilmektedir.\n Ortodontik ve pedodontik tedaviler haricindeki tüm diş tedavileri klinikte yapılmaktadır.\n",
             4: "Hizmetlerimizin En İyileri",
             5: "Hollywood Gülüşü (Gülüş Estetiği)",
@@ -544,7 +544,7 @@ i18n
           },
           plasticClinic: {
             1: "Dr. Selahattin Tulunay",
-            2: "Dr.Selahattin Tulunay Muyanehane",
+            2: "Dr.Selahattin Tulunay Muayenehanesi",
             3: "2001 yılında Universal Hospital Group'un (UGH) Plastik ve Rekonstrüktif Cerrahi Bölümü'ne atanarak mesleğini burada sürdürmüştür.\n2012 yılından itibaren ise kendisini hizmet vermeye adadığı kendi kliniğinin başına geçmiştir. Selahattin Tulunay Türk Tabipleri Birliği üyesidir.\n Türk Plastik Rekonstrüktif ve Estetik Cerrahi Derneği üyesidir. 2012 yılında düzenlenen “Yılın En İyi Plastik Cerrahı” yarışmasında ödüle layık görülmüştür. Çalışmalarına ve araştırmalarına kendi kliniğinde ve anlaşmalı olduğu hastanede devam etmektedir. 2014 ve 2015 yıllarında düzenlenen “Yılın En İyi Saç Ekim Uzmanı” yarışmasında 2 kez ödüle layık görülmüştür.\n Dr. Selahattin Tulunay iyi derecede İngilizce bilmektedir. Yurt içi ve yurt dışında çeşitli tıp yayınları bulunan Dr. Tulunay, kongrelere katılarak güncel kalmaya çalışmaktadır. Ayrıca yurt içi ve yurt dışında düzenlenen kongre ve seminerleri yakından takip etmekte ve bunlara katılmaktadır.\n",
             4: "Uzmanlık:",
             5: "Estetik ve Plastik Ameliyatlar",
